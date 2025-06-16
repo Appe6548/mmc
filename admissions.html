@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-key="page-title-admissions">招生信息 - 吉尔吉斯斯坦枫山学院</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="Logo" class="logo-img">
+                <div class="logo-text">
+                    <h3 data-key="college-name">吉尔吉斯斯坦枫山学院</h3>
+                    <p data-key="college-name-en">Kyrgyzstan Maple Mountain College</p>
+                </div>
+            </div>
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link" data-key="nav-home">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="news.html" class="nav-link" data-key="nav-news">大学新闻</a>
+                </li>
+                <li class="nav-item">
+                    <a href="admissions.html" class="nav-link active" data-key="nav-admissions">招生信息</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link" data-key="nav-about">关于我们</a>
+                </li>
+                <li class="nav-item language-selector">
+                    <button class="language-btn" onclick="toggleLanguageMenu()">
+                        <i class="fas fa-globe"></i>
+                        <span id="current-lang">中文</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="language-menu" id="languageMenu">
+                        <a href="#" onclick="changeLanguage('zh')" data-lang="zh">中文</a>
+                        <a href="#" onclick="changeLanguage('en')" data-lang="en">English</a>
+                        <a href="#" onclick="changeLanguage('ky')" data-lang="ky">Кыргызча</a>
+                    </div>
+                </li>
+            </ul>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 data-key="admissions-page-title">招生信息</h1>
+            <p data-key="admissions-page-subtitle">加入枫山学院，开启您的国际化教育之旅</p>
+        </div>
+    </section>
+
+    <!-- Admissions Content -->
+    <section class="admissions-content">
+        <div class="container">
+            <!-- Application Process -->
+            <div class="section-block">
+                <h2 class="section-title" data-key="application-process-title">申请流程</h2>
+                <div class="process-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3 data-key="step-1-title">在线申请</h3>
+                            <p data-key="step-1-desc">填写在线申请表格，提交基本信息</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3 data-key="step-2-title">提交材料</h3>
+                            <p data-key="step-2-desc">上传所需的申请材料和证明文件</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3 data-key="step-3-title">审核评估</h3>
+                            <p data-key="step-3-desc">招生委员会审核申请材料</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3 data-key="step-4-title">录取通知</h3>
+                            <p data-key="step-4-desc">收到录取通知书并确认入学</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Admission Requirements -->
+            <div class="section-block">
+                <h2 class="section-title" data-key="admission-requirements-title">招生要求</h2>
+                <div class="requirements-grid">
+                    <div class="requirement-card">
+                        <div class="requirement-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3 data-key="academic-requirements-title">学术要求</h3>
+                        <ul>
+                            <li data-key="academic-req-1">高中毕业证书或同等学历</li>
+                            <li data-key="academic-req-2">高中成绩单（GPA 3.0以上）</li>
+                            <li data-key="academic-req-3">相关学科基础知识</li>
+                        </ul>
+                    </div>
+                    <div class="requirement-card">
+                        <div class="requirement-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <h3 data-key="language-requirements-title">语言要求</h3>
+                        <ul>
+                            <li data-key="language-req-1">俄语：ТРКИ-2级或以上</li>
+                            <li data-key="language-req-2">英语：IELTS 6.0或TOEFL 80</li>
+                            <li data-key="language-req-3">或通过学院语言测试</li>
+                        </ul>
+                    </div>
+                    <div class="requirement-card">
+                        <div class="requirement-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <h3 data-key="document-requirements-title">申请材料</h3>
+                        <ul>
+                            <li data-key="document-req-1">完整的申请表</li>
+                            <li data-key="document-req-2">护照复印件</li>
+                            <li data-key="document-req-3">学历证明文件</li>
+                            <li data-key="document-req-4">推荐信（2封）</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Target Students -->
+            <div class="section-block">
+                <h2 class="section-title" data-key="target-students-title">招生对象</h2>
+                <div class="target-grid">
+                    <div class="target-card">
+                        <div class="target-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h3 data-key="target-1-title">国际学生</h3>
+                        <p data-key="target-1-desc">欢迎来自世界各国的优秀学生申请，特别是中亚地区的学生</p>
+                    </div>
+                    <div class="target-card">
+                        <div class="target-icon">
+                            <i class="fas fa-exchange-alt"></i>
+                        </div>
+                        <h3 data-key="target-2-title">交换学生</h3>
+                        <p data-key="target-2-desc">与合作院校的交换学生项目，提供短期和长期学习机会</p>
+                    </div>
+                    <div class="target-card">
+                        <div class="target-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h3 data-key="target-3-title">继续教育</h3>
+                        <p data-key="target-3-desc">为在职人员提供继续教育和专业发展课程</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Programs Offered -->
+            <div class="section-block">
+                <h2 class="section-title" data-key="programs-title">专业设置</h2>
+                <div class="programs-grid">
+                    <div class="program-category">
+                        <h3 data-key="business-programs-title">商科类</h3>
+                        <ul>
+                            <li data-key="program-business-admin">工商管理</li>
+                            <li data-key="program-international-business">国际商务</li>
+                            <li data-key="program-economics">经济学</li>
+                            <li data-key="program-finance">金融学</li>
+                        </ul>
+                    </div>
+                    <div class="program-category">
+                        <h3 data-key="engineering-programs-title">工程类</h3>
+                        <ul>
+                            <li data-key="program-computer-science">计算机科学</li>
+                            <li data-key="program-information-technology">信息技术</li>
+                            <li data-key="program-civil-engineering">土木工程</li>
+                            <li data-key="program-electrical-engineering">电气工程</li>
+                        </ul>
+                    </div>
+                    <div class="program-category">
+                        <h3 data-key="humanities-programs-title">人文类</h3>
+                        <ul>
+                            <li data-key="program-international-relations">国际关系</li>
+                            <li data-key="program-linguistics">语言学</li>
+                            <li data-key="program-journalism">新闻学</li>
+                            <li data-key="program-tourism">旅游管理</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tuition and Fees -->
+            <div class="section-block">
+                <h2 class="section-title" data-key="tuition-title">学费标准</h2>
+                <div class="tuition-table">
+                    <div class="tuition-row header">
+                        <div class="tuition-cell" data-key="tuition-program">专业类别</div>
+                        <div class="tuition-cell" data-key="tuition-annual">年学费（美元）</div>
+                        <div class="tuition-cell" data-key="tuition-notes">备注</div>
+                    </div>
+                    <div class="tuition-row">
+                        <div class="tuition-cell" data-key="business-programs-title">商科类</div>
+                        <div class="tuition-cell">$3,500</div>
+                        <div class="tuition-cell" data-key="tuition-note-1">含实习费用</div>
+                    </div>
+                    <div class="tuition-row">
+                        <div class="tuition-cell" data-key="engineering-programs-title">工程类</div>
+                        <div class="tuition-cell">$4,000</div>
+                        <div class="tuition-cell" data-key="tuition-note-2">含实验费用</div>
+                    </div>
+                    <div class="tuition-row">
+                        <div class="tuition-cell" data-key="humanities-programs-title">人文类</div>
+                        <div class="tuition-cell">$3,200</div>
+                        <div class="tuition-cell" data-key="tuition-note-3">含教材费用</div>
+                    </div>
+                </div>
+                <p class="tuition-note" data-key="tuition-additional-info">
+                    * 以上费用不包括住宿费、餐费等生活费用。学院提供多种奖学金项目，优秀学生可申请学费减免。
+                </p>
+            </div>
+
+            <!-- Application Form -->
+            <div class="section-block">
+                <h2 class="section-title" data-key="apply-now-title">立即申请</h2>
+                <div class="application-form">
+                    <form id="applicationForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName" data-key="form-first-name">姓名</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName" data-key="form-last-name">姓氏</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email" data-key="form-email">电子邮箱</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" data-key="form-phone">电话号码</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nationality" data-key="form-nationality">国籍</label>
+                                <select id="nationality" name="nationality" required>
+                                    <option value="" data-key="form-select-nationality">请选择国籍</option>
+                                    <option value="kg" data-key="nationality-kg">吉尔吉斯斯坦</option>
+                                    <option value="kz" data-key="nationality-kz">哈萨克斯坦</option>
+                                    <option value="uz" data-key="nationality-uz">乌兹别克斯坦</option>
+                                    <option value="tj" data-key="nationality-tj">塔吉克斯坦</option>
+                                    <option value="tm" data-key="nationality-tm">土库曼斯坦</option>
+                                    <option value="other" data-key="nationality-other">其他</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="program" data-key="form-program">申请专业</label>
+                                <select id="program" name="program" required>
+                                    <option value="" data-key="form-select-program">请选择专业</option>
+                                    <option value="business-admin" data-key="program-business-admin">工商管理</option>
+                                    <option value="computer-science" data-key="program-computer-science">计算机科学</option>
+                                    <option value="international-relations" data-key="program-international-relations">国际关系</option>
+                                    <option value="economics" data-key="program-economics">经济学</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-key="form-message">个人陈述</label>
+                            <textarea id="message" name="message" rows="5" placeholder="请简述您的学习目标和选择我院的原因"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-key="form-submit">提交申请</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-key="footer-contact">联系我们</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> <span data-key="footer-address">吉尔吉斯斯坦比什凯克市</span></p>
+                    <p><i class="fas fa-phone"></i> +996 312 123456</p>
+                    <p><i class="fas fa-envelope"></i> info@maplemountain.edu.kg</p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-key="footer-quick-links">快速链接</h3>
+                    <ul>
+                        <li><a href="admissions.html" data-key="nav-admissions">招生信息</a></li>
+                        <li><a href="about.html" data-key="nav-about">关于我们</a></li>
+                        <li><a href="news.html" data-key="nav-news">大学新闻</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-key="footer-follow">关注我们</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 <span data-key="college-name">吉尔吉斯斯坦枫山学院</span>. <span data-key="footer-rights">版权所有</span>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/translations.js"></script>
+</body>
+</html>

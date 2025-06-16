@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-key="page-title-news">大学新闻 - 吉尔吉斯斯坦枫山学院</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="Logo" class="logo-img">
+                <div class="logo-text">
+                    <h3 data-key="college-name">吉尔吉斯斯坦枫山学院</h3>
+                    <p data-key="college-name-en">Kyrgyzstan Maple Mountain College</p>
+                </div>
+            </div>
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link" data-key="nav-home">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="news.html" class="nav-link active" data-key="nav-news">大学新闻</a>
+                </li>
+                <li class="nav-item">
+                    <a href="admissions.html" class="nav-link" data-key="nav-admissions">招生信息</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link" data-key="nav-about">关于我们</a>
+                </li>
+                <li class="nav-item language-selector">
+                    <button class="language-btn" onclick="toggleLanguageMenu()">
+                        <i class="fas fa-globe"></i>
+                        <span id="current-lang">中文</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="language-menu" id="languageMenu">
+                        <a href="#" onclick="changeLanguage('zh')" data-lang="zh">中文</a>
+                        <a href="#" onclick="changeLanguage('en')" data-lang="en">English</a>
+                        <a href="#" onclick="changeLanguage('ky')" data-lang="ky">Кыргызча</a>
+                    </div>
+                </li>
+            </ul>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 data-key="news-page-title">大学新闻</h1>
+            <p data-key="news-page-subtitle">了解枫山学院的最新动态和重要事件</p>
+        </div>
+    </section>
+
+    <!-- News Content -->
+    <section class="news-content">
+        <div class="container">
+            <div class="news-list">
+                <!-- Featured News 2025 -->
+                <article class="news-item featured">
+                    <div class="news-image">
+                        <img src="images/news-2025-award.jpg" alt="Award Ceremony">
+                        <div class="news-category" data-key="news-category-announcement">重要公告</div>
+                    </div>
+                    <div class="news-info">
+                        <div class="news-meta">
+                            <span class="news-date">2025-06-10</span>
+                            <span class="news-author" data-key="news-author-admin">学院办公室</span>
+                        </div>
+                        <h2 class="news-title" data-key="news-2025-1-title">枫山学院获得国际教育质量认证</h2>
+                        <p class="news-excerpt" data-key="news-2025-1-excerpt">
+                            经过严格的评估和审核，吉尔吉斯斯坦枫山学院正式获得国际教育质量认证委员会(IEQAC)颁发的国际教育质量认证。这一重要成就标志着我院在国际化教育道路上迈出了坚实的一步，教育质量得到了国际权威机构的认可。
+                        </p>
+                        <a href="news-detail-2025-1.html" class="read-more" data-key="read-more">阅读全文</a>
+                    </div>
+                </article>
+
+                <!-- 2025 New News Items -->
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/news-2025-ai-forum.jpg" alt="AI Conference">
+                        <div class="news-category" data-key="news-category-academic">学术活动</div>
+                    </div>
+                    <div class="news-info">
+                        <div class="news-meta">
+                            <span class="news-date">2025-06-05</span>
+                            <span class="news-author" data-key="news-author-research">科研处</span>
+                        </div>
+                        <h3 class="news-title" data-key="news-2025-2-title">首届中亚人工智能教育论坛成功举办</h3>
+                        <p class="news-excerpt" data-key="news-2025-2-excerpt">
+                            由我院主办的首届中亚人工智能教育论坛在比什凯克成功举办，来自中亚五国及国际知名高校的专家学者齐聚一堂，共同探讨AI技术在教育领域的应用前景。
+                        </p>
+                        <a href="news-detail-2025-2.html" class="read-more" data-key="read-more">阅读全文</a>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/news-2025-graduation.jpg" alt="Graduation 2025">
+                        <div class="news-category" data-key="news-category-graduation">毕业典礼</div>
+                    </div>
+                    <div class="news-info">
+                        <div class="news-meta">
+                            <span class="news-date">2025-05-28</span>
+                            <span class="news-author" data-key="news-author-admin">学院办公室</span>
+                        </div>
+                        <h3 class="news-title" data-key="news-2025-3-title">2025届毕业典礼隆重举行 千名学子踏上新征程</h3>
+                        <p class="news-excerpt" data-key="news-2025-3-excerpt">
+                            我院2025届毕业典礼在学院体育馆隆重举行，共有1200余名毕业生获得学位。校长Zeon Yan在致辞中勉励毕业生要在全球化时代中发挥桥梁作用，为促进国际交流合作贡献力量。
+                        </p>
+                        <a href="news-detail-2025-3.html" class="read-more" data-key="read-more">阅读全文</a>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/news-2025-belt-road.jpg" alt="Belt and Road">
+                        <div class="news-category" data-key="news-category-cooperation">国际合作</div>
+                    </div>
+                    <div class="news-info">
+                        <div class="news-meta">
+                            <span class="news-date">2025-05-20</span>
+                            <span class="news-author" data-key="news-author-international">国际交流处</span>
+                        </div>
+                        <h3 class="news-title" data-key="news-2025-4-title">枫山学院加入"一带一路"教育合作联盟</h3>
+                        <p class="news-excerpt" data-key="news-2025-4-excerpt">
+                            在国际交流处处长权威米的积极推动下，我院正式加入"一带一路"教育合作联盟，将与沿线国家高校开展更深层次的教育合作，为培养国际化人才搭建更广阔的平台。
+                        </p>
+                        <a href="news-detail-2025-4.html" class="read-more" data-key="read-more">阅读全文</a>
+                    </div>
+                </article>
+
+                <!-- Previous 2024 News -->
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/news-2024-spike.jpg" alt="Secretary Spike">
+                        <div class="news-category" data-key="news-category-announcement">重要公告</div>
+                    </div>
+                    <div class="news-info">
+                        <div class="news-meta">
+                            <span class="news-date">2024-03-20</span>
+                            <span class="news-author" data-key="news-author-admin">学院办公室</span>
+                        </div>
+                        <h3 class="news-title" data-key="news-featured-title">党委书记Spike正式入驻枫山学院</h3>
+                        <p class="news-excerpt" data-key="news-featured-excerpt">
+                            我们很荣幸地宣布，中国共产党优秀党员、经验丰富的教育家和领导者Spike同志正式担任我院党委书记。Spike书记将坚持党的教育方针，贯彻落实党的二十大精神，带领学院进入新的发展阶段。
+                        </p>
+                        <a href="news-detail-spike.html" class="read-more" data-key="read-more">阅读全文</a>
+                    </div>
+                </article>
+
+                <!-- Regular News Items -->
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/news-2024-cultural-festival.jpg" alt="Cultural Festival">
+                        <div class="news-category" data-key="news-category-event">校园活动</div>
+                    </div>
+                    <div class="news-info">
+                        <div class="news-meta">
+                            <span class="news-date">2024-03-15</span>
+                            <span class="news-author" data-key="news-author-student-affairs">学生事务处</span>
+                        </div>
+                        <h3 class="news-title" data-key="news-1-title">枫山学院举办国际文化节</h3>
+                        <p class="news-excerpt" data-key="news-1-full-excerpt">
+                            为期三天的国际文化节在我院成功举办，来自吉尔吉斯斯坦、哈萨克斯坦、乌兹别克斯坦等多个国家的学生展示了丰富多彩的文化传统。活动包括传统服饰展示、民族舞蹈表演、特色美食品尝等环节，促进了不同文化间的交流与理解。
+                        </p>
+                        <a href="news-detail-cultural-festival.html" class="read-more" data-key="read-more">阅读全文</a>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/news-2024-opening.jpg" alt="Opening Ceremony">
+                        <div class="news-category" data-key="news-category-academic">学术活动</div>
+                    </div>
+                    <div class="news-info">
+                        <div class="news-meta">
+                            <span class="news-date">2024-03-10</span>
+                            <span class="news-author" data-key="news-author-academic">教务处</span>
+                        </div>
+                        <h3 class="news-title" data-key="news-2-title">新学期开学典礼圆满举行</h3>
+                        <p class="news-excerpt" data-key="news-2-full-excerpt">
+                            2024年春季学期开学典礼在学院大礼堂隆重举行。学院迎来了来自多个国家的500余名新生。院长在致辞中强调了国际化教育的重要性，鼓励学生们在多元文化环境中成长，培养全球视野和跨文化交流能力。
+                        </p>
+                        <a href="news-detail-opening-ceremony.html" class="read-more" data-key="read-more">阅读全文</a>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/news-2024-research-funding.jpg" alt="Academic Conference">
+                        <div class="news-category" data-key="news-category-research">学术研究</div>
+                    </div>
+                    <div class="news-info">
+                        <div class="news-meta">
+                            <span class="news-date">2024-03-05</span>
+                            <span class="news-author" data-key="news-author-research">科研处</span>
+                        </div>
+                        <h3 class="news-title" data-key="news-3-title">学术研讨会成功召开</h3>
+                        <p class="news-excerpt" data-key="news-3-full-excerpt">
+                            "中亚地区教育发展与国际合作"学术研讨会在我院成功召开。来自吉尔吉斯斯坦、哈萨克斯坦等国的专家学者齐聚一堂，就区域教育合作、人才培养模式等前沿问题进行了深入探讨，为推动中亚地区教育事业发展贡献智慧。
+                        </p>
+                        <a href="news-detail-academic-conference.html" class="read-more" data-key="read-more">阅读全文</a>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/news-2025-graduation.jpg" alt="Graduation">
+                        <div class="news-category" data-key="news-category-graduation">毕业典礼</div>
+                    </div>
+                    <div class="news-info">
+                        <div class="news-meta">
+                            <span class="news-date">2024-02-28</span>
+                            <span class="news-author" data-key="news-author-admin">学院办公室</span>
+                        </div>
+                        <h3 class="news-title" data-key="news-4-title">2024届毕业典礼隆重举行</h3>
+                        <p class="news-excerpt" data-key="news-4-excerpt">
+                            我院2024届毕业典礼在学院体育馆隆重举行，共有800余名毕业生获得学位。毕业生们将带着在枫山学院获得的知识和友谊，走向世界各地，成为连接不同文化的桥梁。
+                        </p>
+                        <a href="news-detail-2024-graduation.html" class="read-more" data-key="read-more">阅读全文</a>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/news-2024-winter-sports.jpg" alt="Sports Event">
+                        <div class="news-category" data-key="news-category-sports">体育活动</div>
+                    </div>
+                    <div class="news-info">
+                        <div class="news-meta">
+                            <span class="news-date">2024-02-20</span>
+                            <span class="news-author" data-key="news-author-sports">体育部</span>
+                        </div>
+                        <h3 class="news-title" data-key="news-5-title">校际体育比赛获得佳绩</h3>
+                        <p class="news-excerpt" data-key="news-5-excerpt">
+                            在刚刚结束的中亚地区大学生体育联赛中，我院代表队表现出色，在足球、篮球、田径等多个项目中获得优异成绩，展现了枫山学院学生的体育风采和团队精神。
+                        </p>
+                        <a href="news-detail-sports-competition.html" class="read-more" data-key="read-more">阅读全文</a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <a href="news.html" class="page-btn active">1</a>
+                <a href="news-page-2.html" class="page-btn">2</a>
+                <a href="news-page-3.html" class="page-btn">3</a>
+                <a href="news-page-2.html" class="page-btn next" data-key="pagination-next">下一页</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-key="footer-contact">联系我们</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> <span data-key="footer-address">吉尔吉斯斯坦比什凯克市</span></p>
+                    <p><i class="fas fa-phone"></i> +996 312 123456</p>
+                    <p><i class="fas fa-envelope"></i> info@maplemountain.edu.kg</p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-key="footer-quick-links">快速链接</h3>
+                    <ul>
+                        <li><a href="admissions.html" data-key="nav-admissions">招生信息</a></li>
+                        <li><a href="about.html" data-key="nav-about">关于我们</a></li>
+                        <li><a href="news.html" data-key="nav-news">大学新闻</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-key="footer-follow">关注我们</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 <span data-key="college-name">吉尔吉斯斯坦枫山学院</span>. <span data-key="footer-rights">版权所有</span>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/translations.js"></script>
+</body>
+</html>

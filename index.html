@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-key="page-title-home">吉尔吉斯斯坦枫山学院 - Kyrgyzstan Maple Mountain College</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="Logo" class="logo-img">
+                <div class="logo-text">
+                    <h3 data-key="college-name">吉尔吉斯斯坦枫山学院</h3>
+                    <p data-key="college-name-en">Kyrgyzstan Maple Mountain College</p>
+                </div>
+            </div>
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active" data-key="nav-home">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="news.html" class="nav-link" data-key="nav-news">大学新闻</a>
+                </li>
+                <li class="nav-item">
+                    <a href="admissions.html" class="nav-link" data-key="nav-admissions">招生信息</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link" data-key="nav-about">关于我们</a>
+                </li>
+                <li class="nav-item language-selector">
+                    <button class="language-btn" onclick="toggleLanguageMenu()">
+                        <i class="fas fa-globe"></i>
+                        <span id="current-lang">中文</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="language-menu" id="languageMenu">
+                        <a href="#" onclick="changeLanguage('zh')" data-lang="zh">中文</a>
+                        <a href="#" onclick="changeLanguage('en')" data-lang="en">English</a>
+                        <a href="#" onclick="changeLanguage('ky')" data-lang="ky">Кыргызча</a>
+                    </div>
+                </li>
+            </ul>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-key="hero-title">欢迎来到吉尔吉斯斯坦枫山学院</h1>
+            <p class="hero-subtitle" data-key="hero-subtitle">培养国际化人才，连接世界与未来</p>
+            <div class="hero-buttons">
+                <a href="admissions.html" class="btn btn-primary" data-key="hero-btn-apply">立即申请</a>
+                <a href="about.html" class="btn btn-secondary" data-key="hero-btn-learn">了解更多</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/campus-hero.jpg" alt="Campus" />
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title" data-key="features-title">为什么选择枫山学院</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 data-key="feature-1-title">优质教育</h3>
+                    <p data-key="feature-1-desc">国际化的教学体系，培养具有全球视野的优秀人才</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 data-key="feature-2-title">师资力量</h3>
+                    <p data-key="feature-2-desc">拥有经验丰富的国际化师资团队，提供专业指导</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe-asia"></i>
+                    </div>
+                    <h3 data-key="feature-3-title">国际交流</h3>
+                    <p data-key="feature-3-desc">广泛的国际合作项目，拓展学生国际视野</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 data-key="feature-4-title">现代设施</h3>
+                    <p data-key="feature-4-desc">先进的教学设施和舒适的校园环境</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">2500+</div>
+                    <div class="stat-label" data-key="stat-students">在校学生</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label" data-key="stat-faculty">教职员工</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label" data-key="stat-programs">专业课程</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">95%</div>
+                    <div class="stat-label" data-key="stat-employment">就业率</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Preview -->
+    <section class="news-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-key="news-title">最新动态</h2>
+                <a href="news.html" class="view-all-btn" data-key="view-all">查看全部</a>
+            </div>
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="images/news-2024-cultural-festival.jpg" alt="News 1">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-date">2024-03-15</div>
+                        <h3 class="news-title" data-key="news-1-title">枫山学院举办国际文化节</h3>
+                        <p class="news-excerpt" data-key="news-1-excerpt">来自世界各地的学生展示了丰富多彩的文化传统...</p>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="images/news-2024-opening.jpg" alt="News 2">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-date">2024-03-10</div>
+                        <h3 class="news-title" data-key="news-2-title">新学期开学典礼圆满举行</h3>
+                        <p class="news-excerpt" data-key="news-2-excerpt">学院迎来了来自多个国家的新生...</p>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="images/news-2024-research-funding.jpg" alt="News 3">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-date">2024-03-05</div>
+                        <h3 class="news-title" data-key="news-3-title">学术研讨会成功召开</h3>
+                        <p class="news-excerpt" data-key="news-3-excerpt">专家学者齐聚一堂，探讨前沿学术问题...</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-key="footer-contact">联系我们</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> <span data-key="footer-address">吉尔吉斯斯坦比什凯克市</span></p>
+                    <p><i class="fas fa-phone"></i> +996 312 123456</p>
+                    <p><i class="fas fa-envelope"></i> info@maplemountain.edu.kg</p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-key="footer-quick-links">快速链接</h3>
+                    <ul>
+                        <li><a href="admissions.html" data-key="nav-admissions">招生信息</a></li>
+                        <li><a href="about.html" data-key="nav-about">关于我们</a></li>
+                        <li><a href="news.html" data-key="nav-news">大学新闻</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-key="footer-follow">关注我们</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 <span data-key="college-name">吉尔吉斯斯坦枫山学院</span>. <span data-key="footer-rights">版权所有</span>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/translations.js"></script>
+</body>
+</html>

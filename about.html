@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-key="page-title-about">关于我们 - 吉尔吉斯斯坦枫山学院</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="Logo" class="logo-img">
+                <div class="logo-text">
+                    <h3 data-key="college-name">吉尔吉斯斯坦枫山学院</h3>
+                    <p data-key="college-name-en">Kyrgyzstan Maple Mountain College</p>
+                </div>
+            </div>
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link" data-key="nav-home">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="news.html" class="nav-link" data-key="nav-news">大学新闻</a>
+                </li>
+                <li class="nav-item">
+                    <a href="admissions.html" class="nav-link" data-key="nav-admissions">招生信息</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link active" data-key="nav-about">关于我们</a>
+                </li>
+                <li class="nav-item language-selector">
+                    <button class="language-btn" onclick="toggleLanguageMenu()">
+                        <i class="fas fa-globe"></i>
+                        <span id="current-lang">中文</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="language-menu" id="languageMenu">
+                        <a href="#" onclick="changeLanguage('zh')" data-lang="zh">中文</a>
+                        <a href="#" onclick="changeLanguage('en')" data-lang="en">English</a>
+                        <a href="#" onclick="changeLanguage('ky')" data-lang="ky">Кыргызча</a>
+                    </div>
+                </li>
+            </ul>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 data-key="about-page-title">关于我们</h1>
+            <p data-key="about-page-subtitle">了解枫山学院的历史、使命和愿景</p>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="about-content">
+        <div class="container">
+            <!-- College Introduction -->
+            <div class="section-block">
+                <div class="intro-content">
+                    <div class="intro-text">
+                        <h2 class="section-title" data-key="college-intro-title">学院简介</h2>
+                        <p data-key="college-intro-p1">
+                            吉尔吉斯斯坦枫山学院成立于2010年，是一所致力于国际化教育的现代化高等学府。学院位于美丽的比什凯克市，坐落在天山山脉脚下，环境优美，学术氛围浓厚。
+                        </p>
+                        <p data-key="college-intro-p2">
+                            作为中亚地区重要的教育机构，枫山学院秉承"开放、包容、创新、卓越"的办学理念，致力于培养具有国际视野、跨文化交流能力和创新精神的优秀人才。学院与多个国家的知名大学建立了合作关系，为学生提供广阔的国际交流平台。
+                        </p>
+                        <p data-key="college-intro-p3">
+                            在党委书记Spike的领导下，学院正朝着建设世界一流国际化大学的目标稳步前进，为促进地区教育发展和国际合作做出积极贡献。
+                        </p>
+                    </div>
+                    <div class="intro-image">
+                        <img src="images/campus-main.jpg" alt="Campus Main Building">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Leadership -->
+            <div class="section-block">
+                <h2 class="section-title" data-key="leadership-title">管理层</h2>
+                <div class="leadership-grid">
+                    <div class="leader-card">
+                        <div class="leader-photo">
+                            <img src="images/glc/leader-president.png" alt="President">
+                        </div>
+                        <div class="leader-basic-info">
+                            <h3 data-key="leader-president-name">Zeon Yan</h3>
+                            <p class="leader-title" data-key="leader-president-title">校长</p>
+                        </div>
+                        <div class="leader-detail-overlay">
+                            <div class="leader-detail-content">
+                                <h3 data-key="leader-president-name">Zeon Yan</h3>
+                                <p class="leader-title" data-key="leader-president-title">校长</p>
+                                <p class="leader-desc" data-key="leader-president-desc">
+                                    教育学博士，在国际教育合作和学术研究方面有着丰富的经验和卓越的成就。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leader-card">
+                        <div class="leader-photo">
+                            <img src="images/glc/leader-spike.png" alt="Secretary Spike">
+                        </div>
+                        <div class="leader-basic-info">
+                            <h3 data-key="leader-spike-name">Spike</h3>
+                            <p class="leader-title" data-key="leader-spike-title">党委书记</p>
+                        </div>
+                        <div class="leader-detail-overlay">
+                            <div class="leader-detail-content">
+                                <h3 data-key="leader-spike-name">Spike</h3>
+                                <p class="leader-title" data-key="leader-spike-title">党委书记</p>
+                                <p class="leader-desc" data-key="leader-spike-desc">
+                                    中国共产党优秀党员，资深教育家，拥有20年高等教育管理经验。坚持党的教育方针，致力于推动国际化教育发展和跨文化交流，在党建工作和思想政治教育方面成绩突出。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leader-card">
+                        <div class="leader-photo">
+                            <img src="images/glc/leader-vice-president-1.png" alt="Vice President">
+                        </div>
+                        <div class="leader-basic-info">
+                            <h3 data-key="leader-vice-president-1-name">猫猫糕</h3>
+                            <p class="leader-title" data-key="leader-vice-president-1-title">副校长</p>
+                        </div>
+                        <div class="leader-detail-overlay">
+                            <div class="leader-detail-content">
+                                <h3 data-key="leader-vice-president-1-name">猫猫糕</h3>
+                                <p class="leader-title" data-key="leader-vice-president-1-title">副校长</p>
+                                <p class="leader-desc" data-key="leader-vice-president-1-desc">
+                                    负责学术事务和教学管理，致力于提升教学质量和学术研究水平。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leader-card">
+                        <div class="leader-photo">
+                            <img src="images/glc/leader-vice-president-2.png" alt="Vice President">
+                        </div>
+                        <div class="leader-basic-info">
+                            <h3 data-key="leader-vice-president-2-name">木木</h3>
+                            <p class="leader-title" data-key="leader-vice-president-2-title">副校长</p>
+                        </div>
+                        <div class="leader-detail-overlay">
+                            <div class="leader-detail-content">
+                                <h3 data-key="leader-vice-president-2-name">木木</h3>
+                                <p class="leader-title" data-key="leader-vice-president-2-title">副校长</p>
+                                <p class="leader-desc" data-key="leader-vice-president-2-desc">
+                                    负责学生事务和校园发展，关注学生全面发展和校园文化建设。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leader-card">
+                        <div class="leader-photo">
+                            <img src="images/glc/leader-international-director.png" alt="International Affairs Director">
+                        </div>
+                        <div class="leader-basic-info">
+                            <h3 data-key="leader-international-director-name">权威米</h3>
+                            <p class="leader-title" data-key="leader-international-director-title">国际交流处处长</p>
+                        </div>
+                        <div class="leader-detail-overlay">
+                            <div class="leader-detail-content">
+                                <h3 data-key="leader-international-director-name">权威米</h3>
+                                <p class="leader-title" data-key="leader-international-director-title">国际交流处处长</p>
+                                <p class="leader-desc" data-key="leader-international-director-desc">
+                                    负责国际合作项目和学生交流事务，推动学院国际化发展战略。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leader-card">
+                        <div class="leader-photo">
+                            <img src="images/glc/leader-office-director.png" alt="Office Director">
+                        </div>
+                        <div class="leader-basic-info">
+                            <h3 data-key="leader-office-director-name">倪蝶</h3>
+                            <p class="leader-title" data-key="leader-office-director-title">校办公室主任</p>
+                        </div>
+                        <div class="leader-detail-overlay">
+                            <div class="leader-detail-content">
+                                <h3 data-key="leader-office-director-name">倪蝶</h3>
+                                <p class="leader-title" data-key="leader-office-director-title">校办公室主任</p>
+                                <p class="leader-desc" data-key="leader-office-director-desc">
+                                    负责学院行政管理和日常运营，确保各项工作高效有序进行。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mission and Vision -->
+            <div class="section-block">
+                <div class="mission-vision">
+                    <div class="mission">
+                        <div class="mv-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3 data-key="mission-title">我们的使命</h3>
+                        <p data-key="mission-text">
+                            培养具有全球视野和跨文化交流能力的国际化人才，促进中亚地区教育发展，搭建东西方文化交流的桥梁。
+                        </p>
+                    </div>
+                    <div class="vision">
+                        <div class="mv-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3 data-key="vision-title">我们的愿景</h3>
+                        <p data-key="vision-text">
+                            成为中亚地区领先的国际化高等教育机构，为构建人类命运共同体培养优秀人才。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Statistics -->
+            <div class="section-block">
+                <h2 class="section-title" data-key="statistics-title">学院数据</h2>
+                <div class="stats-detailed">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-number">2,580</div>
+                            <div class="stat-label" data-key="stat-total-students">在校学生总数</div>
+                            <div class="stat-detail" data-key="stat-students-detail">来自15个国家和地区</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-number">156</div>
+                            <div class="stat-label" data-key="stat-faculty-total">教职员工总数</div>
+                            <div class="stat-detail" data-key="stat-faculty-detail">其中教授35人，副教授68人</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-number">28</div>
+                            <div class="stat-label" data-key="stat-programs-total">专业课程数量</div>
+                            <div class="stat-detail" data-key="stat-programs-detail">涵盖商科、工程、人文等领域</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-number">8,500+</div>
+                            <div class="stat-label" data-key="stat-graduates-total">毕业生总数</div>
+                            <div class="stat-detail" data-key="stat-graduates-detail">遍布世界各地</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Faculty Strength -->
+            <div class="section-block">
+                <h2 class="section-title" data-key="faculty-title">师资力量</h2>
+                <div class="faculty-content">
+                    <div class="faculty-overview">
+                        <p data-key="faculty-overview-text">
+                            枫山学院拥有一支高素质、国际化的师资队伍。我们的教师来自世界各地，具有丰富的教学经验和深厚的学术背景。学院注重师资队伍建设，定期组织教师培训和学术交流活动。
+                        </p>
+                    </div>
+                    <div class="faculty-highlights">
+                        <div class="faculty-item">
+                            <div class="faculty-number">85%</div>
+                            <div class="faculty-desc" data-key="faculty-masters">教师拥有硕士以上学位</div>
+                        </div>
+                        <div class="faculty-item">
+                            <div class="faculty-number">45%</div>
+                            <div class="faculty-desc" data-key="faculty-international">国际教师比例</div>
+                        </div>
+                        <div class="faculty-item">
+                            <div class="faculty-number">12:1</div>
+                            <div class="faculty-desc" data-key="faculty-ratio">师生比例</div>
+                        </div>
+                        <div class="faculty-item">
+                            <div class="faculty-number">15年</div>
+                            <div class="faculty-desc" data-key="faculty-experience">平均教学经验</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Campus Facilities -->
+            <div class="section-block">
+                <h2 class="section-title" data-key="facilities-title">校园设施</h2>
+                <div class="facilities-grid">
+                    <div class="facility-card">
+                        <div class="facility-image">
+                            <img src="images/library.jpg" alt="Library">
+                        </div>
+                        <div class="facility-content">
+                            <h3 data-key="facility-library-title">现代化图书馆</h3>
+                            <p data-key="facility-library-desc">藏书15万册，提供安静的学习环境和先进的数字资源</p>
+                        </div>
+                    </div>
+                    <div class="facility-card">
+                        <div class="facility-image">
+                            <img src="images/lab.jpg" alt="Laboratory">
+                        </div>
+                        <div class="facility-content">
+                            <h3 data-key="facility-lab-title">实验室</h3>
+                            <p data-key="facility-lab-desc">配备先进设备的计算机实验室、语言实验室和专业实验室</p>
+                        </div>
+                    </div>
+                    <div class="facility-card">
+                        <div class="facility-image">
+                            <img src="images/dormitory.jpg" alt="Dormitory">
+                        </div>
+                        <div class="facility-content">
+                            <h3 data-key="facility-dorm-title">学生宿舍</h3>
+                            <p data-key="facility-dorm-desc">舒适安全的住宿环境，配备现代化生活设施</p>
+                        </div>
+                    </div>
+                    <div class="facility-card">
+                        <div class="facility-image">
+                            <img src="images/sports.jpg" alt="Sports Center">
+                        </div>
+                        <div class="facility-content">
+                            <h3 data-key="facility-sports-title">体育中心</h3>
+                            <p data-key="facility-sports-desc">包括体育馆、游泳池、健身房等完善的体育设施</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- International Cooperation -->
+            <div class="section-block">
+                <h2 class="section-title" data-key="cooperation-title">国际合作</h2>
+                <div class="cooperation-content">
+                    <p data-key="cooperation-intro">
+                        枫山学院积极开展国际合作与交流，与多个国家的知名大学建立了合作关系，为学生提供丰富的国际交流机会。
+                    </p>
+                    <div class="cooperation-partners">
+                        <div class="partner-category">
+                            <h4 data-key="partners-europe">欧洲合作院校</h4>
+                            <ul>
+                                <li data-key="partner-eu-1">德国慕尼黑工业大学</li>
+                                <li data-key="partner-eu-2">法国巴黎高等商学院</li>
+                                <li data-key="partner-eu-3">英国伦敦大学学院</li>
+                            </ul>
+                        </div>
+                        <div class="partner-category">
+                            <h4 data-key="partners-asia">亚洲合作院校</h4>
+                            <ul>
+                                <li data-key="partner-asia-1">新加坡国立大学</li>
+                                <li data-key="partner-asia-2">韩国首尔国立大学</li>
+                                <li data-key="partner-asia-3">日本早稻田大学</li>
+                            </ul>
+                        </div>
+                        <div class="partner-category">
+                            <h4 data-key="partners-america">美洲合作院校</h4>
+                            <ul>
+                                <li data-key="partner-america-1">美国加州大学伯克利分校</li>
+                                <li data-key="partner-america-2">加拿大多伦多大学</li>
+                                <li data-key="partner-america-3">巴西圣保罗大学</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-key="footer-contact">联系我们</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> <span data-key="footer-address">吉尔吉斯斯坦比什凯克市</span></p>
+                    <p><i class="fas fa-phone"></i> +996 312 123456</p>
+                    <p><i class="fas fa-envelope"></i> info@maplemountain.edu.kg</p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-key="footer-quick-links">快速链接</h3>
+                    <ul>
+                        <li><a href="admissions.html" data-key="nav-admissions">招生信息</a></li>
+                        <li><a href="about.html" data-key="nav-about">关于我们</a></li>
+                        <li><a href="news.html" data-key="nav-news">大学新闻</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-key="footer-follow">关注我们</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 <span data-key="college-name">吉尔吉斯斯坦枫山学院</span>. <span data-key="footer-rights">版权所有</span>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/translations.js"></script>
+</body>
+</html>

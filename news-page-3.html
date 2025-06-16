@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-key="nav-news">大学新闻 - 第3页 - 吉尔吉斯斯坦枫山学院</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="Logo" class="logo-img">
+                <div class="logo-text">
+                    <h3 data-key="college-name">吉尔吉斯斯坦枫山学院</h3>
+                    <p data-key="college-name-en">Kyrgyzstan Maple Mountain College</p>
+                </div>
+            </div>
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link" data-key="nav-home">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="news.html" class="nav-link active" data-key="nav-news">大学新闻</a>
+                </li>
+                <li class="nav-item">
+                    <a href="admissions.html" class="nav-link" data-key="nav-admissions">招生信息</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link" data-key="nav-about">关于我们</a>
+                </li>
+                <li class="nav-item language-selector">
+                    <button class="language-btn" onclick="toggleLanguageMenu()">
+                        <i class="fas fa-globe"></i>
+                        <span id="current-lang">中文</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="language-menu" id="languageMenu">
+                        <a href="#" onclick="changeLanguage('zh')" data-lang="zh">中文</a>
+                        <a href="#" onclick="changeLanguage('en')" data-lang="en">English</a>
+                        <a href="#" onclick="changeLanguage('ky')" data-lang="ky">Кыргызча</a>
+                    </div>
+                </li>
+            </ul>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- News Section -->
+    <section class="news-section">
+        <div class="container">
+            <div class="section-header">
+                <h1 data-key="nav-news">大学新闻</h1>
+                <p data-key="news-subtitle">了解枫山学院的最新动态和重要事件</p>
+            </div>
+
+            <div class="news-list">
+                <!-- 2024年上半年新闻 -->
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/news-2024-innovation.jpg" alt="Innovation Competition">
+                        <div class="news-category" data-key="news-category-academic">学术活动</div>
+                    </div>
+                    <div class="news-info">
+                        <div class="news-meta">
+                            <span class="news-date">2024-06-20</span>
+                            <span class="news-author" data-key="news-author-student">学生处</span>
+                        </div>
+                        <h3 class="news-title" data-key="news-2024-6-title">学生创新创业大赛成功举办</h3>
+                        <p class="news-excerpt" data-key="news-2024-6-excerpt">
+                            第二届学生创新创业大赛成功举办，共有50个项目参赛，涵盖科技创新、社会服务、文化创意等多个领域，展现了学生们的创新精神和实践能力。
+                        </p>
+                        <a href="news-detail-2025-2.html" class="read-more" data-key="read-more">阅读全文</a>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/news-2024-faculty-training.jpg" alt="Faculty Training">
+                        <div class="news-category" data-key="news-category-academic">学术活动</div>
+                    </div>
+                    <div class="news-info">
+                        <div class="news-meta">
+                            <span class="news-date">2024-05-15</span>
+                            <span class="news-author" data-key="news-author-academic">教务处</span>
+                        </div>
+                        <h3 class="news-title" data-key="news-2024-5-title">夏季学期师资培训计划启动</h3>
+                        <p class="news-excerpt" data-key="news-2024-5-excerpt">
+                            为提升教学质量，我院启动夏季学期师资培训计划，邀请来自欧美知名大学的教授为我院教师进行教学方法、课程设计等方面的专业培训。
+                        </p>
+                        <a href="news-detail-2025-1.html" class="read-more" data-key="read-more">阅读全文</a>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/news-2024-cooperation.jpg" alt="Model UN">
+                        <div class="news-category" data-key="news-category-academic">学术活动</div>
+                    </div>
+                    <div class="news-info">
+                        <div class="news-meta">
+                            <span class="news-date">2024-04-28</span>
+                            <span class="news-author" data-key="news-author-research">科研处</span>
+                        </div>
+                        <h3 class="news-title" data-key="news-2024-4-title">首届模拟联合国大会圆满落幕</h3>
+                        <p class="news-excerpt" data-key="news-2024-4-excerpt">
+                            由我院国际关系系主办的首届模拟联合国大会圆满落幕，来自中亚五国的200余名学生参与，就全球气候变化、国际贸易等议题进行了深入讨论。
+                        </p>
+                        <a href="news-detail-2025-3.html" class="read-more" data-key="read-more">阅读全文</a>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/lab.jpg" alt="Research Funding">
+                        <div class="news-category" data-key="news-category-research">学术研究</div>
+                    </div>
+                    <div class="news-info">
+                        <div class="news-meta">
+                            <span class="news-date">2024-04-10</span>
+                            <span class="news-author" data-key="news-author-research">科研处</span>
+                        </div>
+                        <h3 class="news-title" data-key="news-2024-3-title">计算机科学系获得科研项目资助</h3>
+                        <p class="news-excerpt" data-key="news-2024-3-excerpt">
+                            我院计算机科学系成功获得吉尔吉斯斯坦科学基金会资助，将开展为期三年的"中亚地区数字化教育平台"研究项目，推动教育技术创新发展。
+                        </p>
+                        <a href="news-detail-2025-4.html" class="read-more" data-key="read-more">阅读全文</a>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/news-2024-model-un.jpg" alt="Spring Cultural Festival">
+                        <div class="news-category" data-key="news-category-culture">文化活动</div>
+                    </div>
+                    <div class="news-info">
+                        <div class="news-meta">
+                            <span class="news-date">2024-03-25</span>
+                            <span class="news-author" data-key="news-author-student">学生处</span>
+                        </div>
+                        <h3 class="news-title" data-key="news-2024-2-title">春季学期国际文化节成功举办</h3>
+                        <p class="news-excerpt" data-key="news-2024-2-excerpt">
+                            为期一周的国际文化节在校园内成功举办，来自15个国家的学生展示了各自的传统文化、美食和艺术表演，促进了不同文化间的交流与理解。
+                        </p>
+                        <a href="news-detail-cultural-festival.html" class="read-more" data-key="read-more">阅读全文</a>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-image">
+                        <img src="images/news-2024-cooperation.jpg" alt="Cooperation Agreement">
+                        <div class="news-category" data-key="news-category-cooperation">国际合作</div>
+                    </div>
+                    <div class="news-info">
+                        <div class="news-meta">
+                            <span class="news-date">2024-03-22</span>
+                            <span class="news-author" data-key="news-author-international">国际交流处</span>
+                        </div>
+                        <h3 class="news-title" data-key="news-2024-1-title">枫山学院与哈萨克斯坦国立大学签署合作协议</h3>
+                        <p class="news-excerpt" data-key="news-2024-1-excerpt">
+                            我院与哈萨克斯坦国立大学正式签署教育合作协议，双方将在学生交换、师资培训、学术研究等领域开展深入合作，为中亚地区教育一体化发展贡献力量。
+                        </p>
+                        <a href="news-detail-cooperation-agreement.html" class="read-more" data-key="read-more">阅读全文</a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <a href="news-page-2.html" class="page-btn prev" data-key="pagination-prev">上一页</a>
+                <a href="news.html" class="page-btn">1</a>
+                <a href="news-page-2.html" class="page-btn">2</a>
+                <a href="news-page-3.html" class="page-btn active">3</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-key="footer-contact">联系我们</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> <span data-key="footer-address">吉尔吉斯斯坦比什凯克市</span></p>
+                    <p><i class="fas fa-phone"></i> +996 312 123456</p>
+                    <p><i class="fas fa-envelope"></i> info@maplemountain.edu.kg</p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-key="footer-quick-links">快速链接</h3>
+                    <ul>
+                        <li><a href="admissions.html" data-key="nav-admissions">招生信息</a></li>
+                        <li><a href="about.html" data-key="nav-about">关于我们</a></li>
+                        <li><a href="news.html" data-key="nav-news">大学新闻</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-key="footer-follow">关注我们</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 <span data-key="college-name">吉尔吉斯斯坦枫山学院</span>. <span data-key="footer-rights">版权所有</span>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/translations.js"></script>
+</body>
+</html>
