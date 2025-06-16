@@ -8,11 +8,11 @@ const translations = {
         'nav-about': '关于我们',
         
         // College names
-        'college-name': '吉尔吉斯斯坦枫山学院',
-        'college-name-en': 'Kyrgyzstan Maple Mountain College',
+        'college-name': '枫山学院',
+        'college-name-en': 'Maple Mountain College',
         
         // Hero section
-        'hero-title': '欢迎来到吉尔吉斯斯坦枫山学院',
+        'hero-title': '欢迎来到枫山学院',
         'hero-subtitle': '培养国际化人才，连接世界与未来',
         'hero-btn-apply': '立即申请',
         'hero-btn-learn': '了解更多',
@@ -52,10 +52,10 @@ const translations = {
         'footer-rights': '版权所有',
         
         // Page titles
-        'page-title-home': '吉尔吉斯斯坦枫山学院 - Kyrgyzstan Maple Mountain College',
-        'page-title-news': '大学新闻 - 吉尔吉斯斯坦枫山学院',
-        'page-title-admissions': '招生信息 - 吉尔吉斯斯坦枫山学院',
-        'page-title-about': '关于我们 - 吉尔吉斯斯坦枫山学院',
+        'page-title-home': '枫山学院 - Maple Mountain College',
+        'page-title-news': '大学新闻 - 枫山学院',
+        'page-title-admissions': '招生信息 - 枫山学院',
+        'page-title-about': '关于我们 - 枫山学院',
         
         // News page
         'news-page-title': '大学新闻',
@@ -96,7 +96,7 @@ const translations = {
         'statistics-title': '学院数据',
         'faculty-title': '师资力量',
         'facilities-title': '校园设施',
-        'cooperation-title': '国际合作',
+
         'leadership-title': '学院领导',
         
         // Form
@@ -127,8 +127,8 @@ const translations = {
         // 2025 New News
         'news-category-cooperation': '国际合作',
         'news-author-international': '国际交流处',
-        'news-2025-1-title': '枫山学院荣获吉尔吉斯斯坦"优秀高等教育机构"称号',
-        'news-2025-1-excerpt': '经过严格的评估和审核，吉尔吉斯斯坦枫山学院正式获得吉尔吉斯斯坦教育科学部颁发的"优秀高等教育机构"荣誉称号。这一重要成就标志着我院在国际化教育道路上迈出了坚实的一步，教育质量得到了国家权威部门的认可。',
+        'news-2025-1-title': '枫山学院荣获"优秀高等教育机构"称号',
+        'news-2025-1-excerpt': '经过严格的评估和审核，枫山学院正式获得教育科学部颁发的"优秀高等教育机构"荣誉称号。这一重要成就标志着我院在国际化教育道路上迈出了坚实的一步，教育质量得到了国家权威部门的认可。',
         'news-2025-2-title': '首届中亚人工智能教育论坛成功举办',
         'news-2025-2-excerpt': '由我院主办的首届中亚人工智能教育论坛在比什凯克成功举办，来自中亚五国及国际知名高校的专家学者齐聚一堂，共同探讨AI技术在教育领域的应用前景。',
         'news-2025-3-title': '2025届毕业典礼隆重举行 千名学子踏上新征程',
@@ -139,7 +139,7 @@ const translations = {
         // News Detail Page Translations
         'related-news-title': '相关新闻',
         'back-to-news': '返回新闻列表',
-        'news-detail-2025-1-p1': '【本报讯】经过为期一年的严格评估和审核，吉尔吉斯斯坦枫山学院于2025年6月10日正式获得吉尔吉斯斯坦教育科学部颁发的"优秀高等教育机构"荣誉称号。这一重要成就标志着我院在国际化教育道路上迈出了坚实的一步，教育质量得到了国家权威部门的认可。',
+        'news-detail-2025-1-p1': '【本报讯】经过为期一年的严格评估和审核，枫山学院于2025年6月10日正式获得吉尔吉斯斯坦教育科学部颁发的"优秀高等教育机构"荣誉称号。这一重要成就标志着我院在国际化教育道路上迈出了坚实的一步，教育质量得到了国家权威部门的认可。',
         'news-detail-2025-1-p2': '吉尔吉斯斯坦教育科学部是国家最高教育管理机构，其评估标准严格，审核过程全面。此次评估涵盖了我院的教学质量、师资力量、课程设置、国际化程度、学生服务等多个维度。教育部评估专家组在为期两周的实地考察中，对我院的办学理念、教学设施、管理体系等给予了高度评价。',
         'news-detail-2025-1-p3': '校长Zeon Yan在接受采访时表示："这一认证是对我院多年来坚持国际化办学理念的最好肯定。我们将以此为新的起点，继续深化教育教学改革，提升人才培养质量，为中亚地区乃至全球培养更多优秀的国际化人才。"',
         'news-detail-2025-1-p4': '党委书记Spike同志强调，获得国家级荣誉称号是学院发展史上的重要里程碑，体现了我院在坚持党的教育方针指导下，走国际化发展道路的正确性。他表示，学院将继续加强党建工作，确保在国际化进程中始终坚持正确的政治方向。',
@@ -149,7 +149,7 @@ const translations = {
         'news-detail-2025-1-quote': '"枫山学院获得\'优秀高等教育机构\'称号是对学院教育水平的充分肯定，也是对中亚地区高等教育发展的重要推动。我们期待枫山学院在国际化教育方面发挥更大作用。" —— 吉尔吉斯斯坦教育科学部部长 阿扎马特·阿克马托夫',
 
         // AI Forum News Detail
-        'news-detail-2025-2-p1': '【本报讯】6月5日，由吉尔吉斯斯坦枫山学院主办的首届中亚人工智能教育论坛在比什凯克成功举办。来自中亚五国及国际知名高校的专家学者齐聚一堂，共同探讨AI技术在教育领域的应用前景，为推动地区教育现代化发展贡献智慧。',
+        'news-detail-2025-2-p1': '【本报讯】6月5日，由枫山学院主办的首届中亚人工智能教育论坛在比什凯克成功举办。来自中亚五国及国际知名高校的专家学者齐聚一堂，共同探讨AI技术在教育领域的应用前景，为推动地区教育现代化发展贡献智慧。',
         'news-detail-2025-2-p2': '本次论坛以"智能教育·未来已来"为主题，吸引了来自哈萨克斯坦、乌兹别克斯坦、塔吉克斯坦、土库曼斯坦等国的教育专家，以及来自麻省理工学院、斯坦福大学、清华大学等世界知名学府的AI教育研究专家参与。',
         'news-detail-2025-2-p3': '校长Zeon Yan在开幕式致辞中表示："人工智能正在深刻改变教育的面貌，我们必须积极拥抱这一变革，让AI技术更好地服务于人才培养。枫山学院愿意与各国同行携手，共同推动智能教育在中亚地区的发展。"',
         'news-detail-2025-2-p4': '论坛期间，与会专家围绕"AI在个性化学习中的应用"、"智能教学系统的构建"、"教育数据挖掘与分析"等热点话题进行了深入交流。来自斯坦福大学的AI教育专家Dr. Michael Chen分享了最新的研究成果，引起了与会者的热烈讨论。',
@@ -158,7 +158,7 @@ const translations = {
         'news-detail-2025-2-quote': '"枫山学院在AI教育应用方面的探索令人印象深刻，这种创新精神正是推动教育进步的重要动力。" —— 麻省理工学院AI实验室主任 Dr. Lisa Wang',
 
         // Graduation News Detail
-        'news-detail-2025-3-p1': '【本报讯】5月28日上午，吉尔吉斯斯坦枫山学院2025届毕业典礼在学院体育馆隆重举行。共有1200余名毕业生获得学位，他们将带着在枫山学院获得的知识和友谊，踏上人生新的征程。',
+        'news-detail-2025-3-p1': '【本报讯】5月28日上午，枫山学院2025届毕业典礼在学院体育馆隆重举行。共有1200余名毕业生获得学位，他们将带着在枫山学院获得的知识和友谊，踏上人生新的征程。',
         'news-detail-2025-3-p2': '典礼在庄严的国歌声中拉开帷幕。党委书记Spike同志首先致辞，他强调了党的教育方针在人才培养中的重要作用，勉励毕业生要始终坚持正确的政治方向，在各自的岗位上为社会主义建设事业贡献力量。',
         'news-detail-2025-3-p3': '校长Zeon Yan在致辞中深情地说："亲爱的毕业生们，你们是枫山学院培养的优秀人才，也是连接不同文化的桥梁。希望你们在全球化时代中发挥重要作用，为促进国际交流合作、推动人类命运共同体建设贡献自己的力量。"',
         'news-detail-2025-3-p4': '本届毕业生来自15个国家和地区，其中包括来自中亚五国的学生占70%，体现了学院国际化办学的特色。毕业生代表、来自哈萨克斯坦的阿丽娜同学在发言中表示，在枫山学院的四年学习生活让她收获了知识、友谊和成长，将永远珍惜这段美好的求学经历。',
@@ -168,7 +168,7 @@ const translations = {
         'news-detail-2025-3-quote': '"枫山学院不仅给了我专业知识，更重要的是培养了我的国际视野和跨文化交流能力。我将把这些宝贵财富带到未来的工作中。" —— 2025届优秀毕业生 阿丽娜（哈萨克斯坦）',
 
         // Belt and Road News Detail
-        'news-detail-2025-4-p1': '【本报讯】5月20日，在国际交流处处长权威米的积极推动下，吉尔吉斯斯坦枫山学院正式加入"一带一路"教育合作联盟，成为该联盟在中亚地区的重要成员机构。这一重要举措将为学院与沿线国家高校开展更深层次的教育合作搭建更广阔的平台。',
+        'news-detail-2025-4-p1': '【本报讯】5月20日，在国际交流处处长权威米的积极推动下，枫山学院正式加入"一带一路"教育合作联盟，成为该联盟在中亚地区的重要成员机构。这一重要举措将为学院与沿线国家高校开展更深层次的教育合作搭建更广阔的平台。',
         'news-detail-2025-4-p2': '"一带一路"教育合作联盟成立于2016年，是由中国教育部倡议发起的国际教育合作平台，旨在促进"一带一路"沿线国家和地区的教育交流与合作。目前，该联盟已有来自80多个国家和地区的200余所高校和教育机构加入。',
         'news-detail-2025-4-p3': '党委书记Spike同志在加入仪式上表示："加入\'一带一路\'教育合作联盟，是我院贯彻落实党的教育方针、推进国际化办学的重要举措。我们将在坚持社会主义办学方向的基础上，积极参与国际教育合作，为构建人类命运共同体贡献教育力量。"',
         'news-detail-2025-4-p4': '国际交流处处长权威米介绍，加入联盟后，枫山学院将在以下几个方面开展合作：一是学生交换项目，每年将选派50名优秀学生到联盟成员高校学习；二是师资交流计划，定期邀请联盟高校专家来院讲学；三是科研合作项目，与联盟成员共同申报国际科研课题；四是文化交流活动，举办"一带一路"文化节等活动。',
@@ -210,7 +210,7 @@ const translations = {
         'news-author-student': '学生处',
 
         // Spike News Detail Translations
-        'news-spike-detail-p1': '【本报讯】我们很荣幸地宣布，中国共产党优秀党员、经验丰富的教育家和领导者Spike同志于2024年3月20日正式担任吉尔吉斯斯坦枫山学院党委书记。这一重要任命标志着学院在党的领导下将进入新的发展阶段。',
+        'news-spike-detail-p1': '【本报讯】我们很荣幸地宣布，中国共产党优秀党员、经验丰富的教育家和领导者Spike同志于2024年3月20日正式担任枫山学院党委书记。这一重要任命标志着学院在党的领导下将进入新的发展阶段。',
         'news-spike-detail-p2': 'Spike同志拥有20年高等教育管理经验，曾在多所知名院校担任重要职务。他坚持党的教育方针，致力于推动国际化教育发展和跨文化交流，在党建工作和思想政治教育方面成绩突出，深受师生爱戴。',
         'news-spike-detail-p3': '在就职仪式上，Spike书记发表了重要讲话。他表示："能够担任枫山学院党委书记，我深感责任重大、使命光荣。我将坚持党的全面领导，贯彻落实党的二十大精神，确保学院始终坚持正确的政治方向和办学方向。"',
         'news-spike-detail-p4': 'Spike书记强调，学院将在坚持社会主义办学方向的基础上，积极推进国际化发展战略。他说："我们要培养既有坚定理想信念，又具备国际视野的优秀人才，为构建人类命运共同体贡献教育力量。"',
@@ -220,7 +220,7 @@ const translations = {
         'news-spike-detail-quote': '"教育是国之大计、党之大计。我们要始终坚持为党育人、为国育才的初心使命，培养德智体美劳全面发展的社会主义建设者和接班人。" —— 党委书记 Spike',
 
         // About page content
-        'college-intro-p1': '吉尔吉斯斯坦枫山学院成立于2010年，是一所致力于国际化教育的现代化高等学府。学院位于美丽的比什凯克市，坐落在天山山脉脚下，环境优美，学术氛围浓厚。',
+        'college-intro-p1': '枫山学院成立于2010年，是一所致力于国际化教育的现代化高等学府。学院位于美丽的比什凯克市，坐落在天山山脉脚下，环境优美，学术氛围浓厚。',
         'college-intro-p2': '作为中亚地区重要的教育机构，枫山学院秉承"开放、包容、创新、卓越"的办学理念，致力于培养具有国际视野、跨文化交流能力和创新精神的优秀人才。学院与多个国家的知名大学建立了合作关系，为学生提供广阔的国际交流平台。',
         'college-intro-p3': '在党委书记Spike的领导下，学院坚持党的全面领导，深入贯彻党的教育方针，加强党建工作和思想政治教育。学院正朝着建设世界一流国际化大学的目标稳步前进，在坚持社会主义办学方向的同时，为促进地区教育发展和国际合作做出积极贡献。',
         'mission-text': '培养具有全球视野和跨文化交流能力的国际化人才，促进中亚地区教育发展，搭建东西方文化交流的桥梁。',
@@ -253,20 +253,7 @@ const translations = {
         'facility-sports-title': '体育中心',
         'facility-sports-desc': '包括体育馆、游泳池、健身房等完善的体育设施',
 
-        // International cooperation
-        'cooperation-intro': '枫山学院积极开展国际合作与交流，与多个国家的知名大学建立了合作关系，为学生提供丰富的国际交流机会。',
-        'partners-europe': '欧洲合作院校',
-        'partner-eu-1': '德国慕尼黑工业大学',
-        'partner-eu-2': '法国巴黎高等商学院',
-        'partner-eu-3': '英国伦敦大学学院',
-        'partners-asia': '亚洲合作院校',
-        'partner-asia-1': '新加坡国立大学',
-        'partner-asia-2': '韩国首尔国立大学',
-        'partner-asia-3': '日本早稻田大学',
-        'partners-america': '美洲合作院校',
-        'partner-america-1': '美国加州大学伯克利分校',
-        'partner-america-2': '加拿大多伦多大学',
-        'partner-america-3': '巴西圣保罗大学',
+
 
         // Leadership
         'leadership-title': '管理层',
@@ -288,6 +275,9 @@ const translations = {
         'leader-office-director-name': '倪蝶',
         'leader-office-director-title': '校办公室主任',
         'leader-office-director-desc': '行政管理学硕士，高效管理专家，拥有9年高等教育行政管理经验。精通现代化办公管理和信息化建设，建立了完善的行政管理制度和工作流程体系。在协调各部门工作、提升管理效率和优化服务质量方面表现卓越，确保学院各项工作的顺利开展和高效运行。',
+        'leader-academic-affairs-name': '辰辰',
+        'leader-academic-affairs-title': '教务长',
+        'leader-academic-affairs-desc': '教育学博士，资深教务管理专家，拥有18年高等教育教学管理经验。专注于教学质量监控和课程体系优化，主导建立了完善的教学质量评估体系和学分制管理制度。在教学改革创新、师资培训和学术标准制定方面有着深厚的专业知识和丰富的实践经验，为学院教学水平的持续提升和国际化办学标准的建立做出了卓越贡献。',
 
         // Admissions page additional content
         'admission-requirements-title': '招生要求',
@@ -354,11 +344,11 @@ const translations = {
         'nav-about': 'About Us',
         
         // College names
-        'college-name': 'Kyrgyzstan Maple Mountain College',
-        'college-name-en': 'Кыргызстан Клен Тоо Колледжи',
+        'college-name': 'Maple Mountain College',
+        'college-name-en': 'Клен Тоо Колледжи',
         
         // Hero section
-        'hero-title': 'Welcome to Kyrgyzstan Maple Mountain College',
+        'hero-title': 'Welcome to Maple Mountain College',
         'hero-subtitle': 'Cultivating International Talents, Connecting the World and Future',
         'hero-btn-apply': 'Apply Now',
         'hero-btn-learn': 'Learn More',
@@ -398,10 +388,10 @@ const translations = {
         'footer-rights': 'All Rights Reserved',
         
         // Page titles
-        'page-title-home': 'Kyrgyzstan Maple Mountain College - International Education',
-        'page-title-news': 'University News - Kyrgyzstan Maple Mountain College',
-        'page-title-admissions': 'Admissions - Kyrgyzstan Maple Mountain College',
-        'page-title-about': 'About Us - Kyrgyzstan Maple Mountain College',
+        'page-title-home': 'Maple Mountain College - International Education',
+        'page-title-news': 'University News - Maple Mountain College',
+        'page-title-admissions': 'Admissions - Maple Mountain College',
+        'page-title-about': 'About Us - Maple Mountain College',
         
         // News page
         'news-page-title': 'University News',
@@ -442,7 +432,7 @@ const translations = {
         'statistics-title': 'College Statistics',
         'faculty-title': 'Faculty Strength',
         'facilities-title': 'Campus Facilities',
-        'cooperation-title': 'International Cooperation',
+
         'leadership-title': 'College Leadership',
         
         // Form
@@ -474,7 +464,7 @@ const translations = {
         'news-category-cooperation': 'International Cooperation',
         'news-author-international': 'International Affairs Office',
         'news-2025-1-title': 'Maple Mountain College Awarded "Outstanding Higher Education Institution" Title in Kyrgyzstan',
-        'news-2025-1-excerpt': 'After rigorous evaluation and review, Kyrgyzstan Maple Mountain College has officially received the "Outstanding Higher Education Institution" honorary title from the Ministry of Education and Science of Kyrgyzstan. This important achievement marks a solid step forward in our college\'s internationalization journey, with our educational quality recognized by national authorities.',
+        'news-2025-1-excerpt': 'After rigorous evaluation and review, Maple Mountain College has officially received the "Outstanding Higher Education Institution" honorary title from the Ministry of Education and Science of Kyrgyzstan. This important achievement marks a solid step forward in our college\'s internationalization journey, with our educational quality recognized by national authorities.',
         'news-2025-2-title': 'First Central Asian AI Education Forum Successfully Held',
         'news-2025-2-excerpt': 'The First Central Asian Artificial Intelligence Education Forum, hosted by our college, was successfully held in Bishkek. Experts and scholars from the five Central Asian countries and internationally renowned universities gathered to explore the application prospects of AI technology in education.',
         'news-2025-3-title': '2025 Graduation Ceremony Held Successfully - Over 1000 Students Embark on New Journey',
@@ -485,7 +475,7 @@ const translations = {
         // News Detail Page Translations in English
         'related-news-title': 'Related News',
         'back-to-news': 'Back to News List',
-        'news-detail-2025-1-p1': '[News Report] After a year of rigorous evaluation and review, Kyrgyzstan Maple Mountain College officially received the "Outstanding Higher Education Institution" honorary title from the Ministry of Education and Science of Kyrgyzstan on June 10, 2025. This important achievement marks a solid step forward in our college\'s internationalization journey, with our educational quality recognized by national authorities.',
+        'news-detail-2025-1-p1': '[News Report] After a year of rigorous evaluation and review, Maple Mountain College officially received the "Outstanding Higher Education Institution" honorary title from the Ministry of Education and Science of Kyrgyzstan on June 10, 2025. This important achievement marks a solid step forward in our college\'s internationalization journey, with our educational quality recognized by national authorities.',
         'news-detail-2025-1-p2': 'The Ministry of Education and Science of Kyrgyzstan is the highest educational management institution in the country, with strict evaluation standards and comprehensive review processes. This evaluation covers multiple dimensions of our college including teaching quality, faculty strength, curriculum design, internationalization level, and student services. The Ministry\'s evaluation expert team gave high praise to our college\'s educational philosophy, teaching facilities, and management system during their two-week on-site inspection.',
         'news-detail-2025-1-p3': 'President Zeon Yan said in an interview: "This accreditation is the best affirmation of our college\'s years of commitment to international educational philosophy. We will take this as a new starting point, continue to deepen educational and teaching reforms, improve talent cultivation quality, and cultivate more excellent international talents for Central Asia and the world."',
         'news-detail-2025-1-p4': 'Party Secretary Spike emphasized that obtaining this national honorary title is an important milestone in the college\'s development history, demonstrating the correctness of our college\'s internationalization development path under the guidance of the Party\'s educational policies. He stated that the college will continue to strengthen Party building work to ensure adherence to the correct political direction throughout the internationalization process.',
@@ -495,7 +485,7 @@ const translations = {
         'news-detail-2025-1-quote': '"Maple Mountain College receiving the \'Outstanding Higher Education Institution\' title is full recognition of the college\'s educational level and an important boost to higher education development in Central Asia. We expect Maple Mountain College to play a greater role in international education." —— Azamat Akmatov, Minister of Education and Science of Kyrgyzstan',
 
         // AI Forum News Detail in English
-        'news-detail-2025-2-p1': '[News Report] On June 5, the First Central Asian Artificial Intelligence Education Forum, hosted by Kyrgyzstan Maple Mountain College, was successfully held in Bishkek. Experts and scholars from the five Central Asian countries and internationally renowned universities gathered to explore the application prospects of AI technology in education, contributing wisdom to promoting regional educational modernization.',
+        'news-detail-2025-2-p1': '[News Report] On June 5, the First Central Asian Artificial Intelligence Education Forum, hosted by Maple Mountain College, was successfully held in Bishkek. Experts and scholars from the five Central Asian countries and internationally renowned universities gathered to explore the application prospects of AI technology in education, contributing wisdom to promoting regional educational modernization.',
         'news-detail-2025-2-p2': 'The forum, themed "Smart Education: The Future is Here," attracted educational experts from Kazakhstan, Uzbekistan, Tajikistan, Turkmenistan, as well as AI education research experts from world-renowned institutions such as MIT, Stanford University, and Tsinghua University.',
         'news-detail-2025-2-p3': 'President Zeon Yan said in his opening remarks: "Artificial intelligence is profoundly changing the face of education. We must actively embrace this transformation and let AI technology better serve talent cultivation. Maple Mountain College is willing to work hand in hand with colleagues from various countries to jointly promote the development of smart education in Central Asia."',
         'news-detail-2025-2-p4': 'During the forum, participating experts conducted in-depth exchanges on hot topics such as "AI Applications in Personalized Learning," "Construction of Intelligent Teaching Systems," and "Educational Data Mining and Analysis." Dr. Michael Chen, an AI education expert from Stanford University, shared the latest research results, sparking heated discussions among participants.',
@@ -504,7 +494,7 @@ const translations = {
         'news-detail-2025-2-quote': '"Maple Mountain College\'s exploration in AI education applications is impressive. This innovative spirit is an important driving force for educational progress." —— Dr. Lisa Wang, Director of MIT AI Laboratory',
 
         // Graduation News Detail in English
-        'news-detail-2025-3-p1': '[News Report] On the morning of May 28, the 2025 graduation ceremony of Kyrgyzstan Maple Mountain College was grandly held at the college gymnasium. Over 1,200 graduates received their degrees and will embark on new journeys in life with the knowledge and friendships gained at Maple Mountain College.',
+        'news-detail-2025-3-p1': '[News Report] On the morning of May 28, the 2025 graduation ceremony of Maple Mountain College was grandly held at the college gymnasium. Over 1,200 graduates received their degrees and will embark on new journeys in life with the knowledge and friendships gained at Maple Mountain College.',
         'news-detail-2025-3-p2': 'The ceremony began with the solemn national anthem. Party Secretary Spike first delivered a speech, emphasizing the important role of the Party\'s educational policies in talent cultivation and encouraging graduates to always adhere to the correct political direction and contribute to socialist construction in their respective positions.',
         'news-detail-2025-3-p3': 'President Zeon Yan said emotionally in his address: "Dear graduates, you are the excellent talents cultivated by Maple Mountain College and bridges connecting different cultures. I hope you will play important roles in the era of globalization, contributing to promoting international exchange and cooperation and building a community with a shared future for mankind."',
         'news-detail-2025-3-p4': 'This year\'s graduates come from 15 countries and regions, with students from the five Central Asian countries accounting for 70%, reflecting the college\'s international educational characteristics. Graduate representative Alina from Kazakhstan said in her speech that her four years of study at Maple Mountain College brought her knowledge, friendship, and growth, and she will always cherish this wonderful educational experience.',
@@ -514,7 +504,7 @@ const translations = {
         'news-detail-2025-3-quote': '"Maple Mountain College not only gave me professional knowledge, but more importantly, cultivated my international perspective and cross-cultural communication abilities. I will bring these valuable assets to my future work." —— Outstanding Graduate 2025 Alina (Kazakhstan)',
 
         // Belt and Road News Detail in English
-        'news-detail-2025-4-p1': '[News Report] On May 20, under the active promotion of International Affairs Director Quanwei Mi, Kyrgyzstan Maple Mountain College officially joined the Belt and Road Education Cooperation Alliance, becoming an important member institution of the alliance in Central Asia. This important initiative will build a broader platform for deeper educational cooperation between the college and universities in countries along the Belt and Road.',
+        'news-detail-2025-4-p1': '[News Report] On May 20, under the active promotion of International Affairs Director Quanwei Mi, Maple Mountain College officially joined the Belt and Road Education Cooperation Alliance, becoming an important member institution of the alliance in Central Asia. This important initiative will build a broader platform for deeper educational cooperation between the college and universities in countries along the Belt and Road.',
         'news-detail-2025-4-p2': 'The Belt and Road Education Cooperation Alliance was established in 2016 as an international educational cooperation platform initiated by China\'s Ministry of Education, aimed at promoting educational exchanges and cooperation among countries and regions along the Belt and Road. Currently, the alliance includes over 200 universities and educational institutions from more than 80 countries and regions.',
         'news-detail-2025-4-p3': 'Party Secretary Spike said at the joining ceremony: "Joining the Belt and Road Education Cooperation Alliance is an important measure for our college to implement the Party\'s educational policies and promote international education. We will actively participate in international educational cooperation while adhering to socialist educational principles, contributing educational strength to building a community with a shared future for mankind."',
         'news-detail-2025-4-p4': 'Director of International Affairs Quanwei Mi introduced that after joining the alliance, Maple Mountain College will carry out cooperation in several areas: first, student exchange programs, selecting 50 outstanding students annually to study at alliance member universities; second, faculty exchange plans, regularly inviting experts from alliance universities to give lectures; third, research cooperation projects, jointly applying for international research topics with alliance members; fourth, cultural exchange activities, hosting Belt and Road cultural festivals.',
@@ -556,7 +546,7 @@ const translations = {
         'news-author-student': 'Student Affairs Office',
 
         // About page content in English
-        'college-intro-p1': 'Kyrgyzstan Maple Mountain College was established in 2010 as a modern higher education institution dedicated to international education. Located in the beautiful city of Bishkek, nestled at the foot of the Tian Shan Mountains, the college enjoys a beautiful environment and rich academic atmosphere.',
+        'college-intro-p1': 'Maple Mountain College was established in 2010 as a modern higher education institution dedicated to international education. Located in the beautiful city of Bishkek, nestled at the foot of the Tian Shan Mountains, the college enjoys a beautiful environment and rich academic atmosphere.',
         'college-intro-p2': 'As an important educational institution in Central Asia, Maple Mountain College adheres to the educational philosophy of "openness, inclusiveness, innovation, and excellence," committed to cultivating outstanding talents with global vision, cross-cultural communication skills, and innovative spirit. The college has established cooperative relationships with renowned universities in multiple countries, providing students with broad international exchange platforms.',
         'college-intro-p3': 'Under the leadership of Party Secretary Spike, the college upholds comprehensive Party leadership, thoroughly implements the Party\'s educational policies, and strengthens Party building and ideological-political education. The college is steadily advancing toward the goal of building a world-class international university, making positive contributions to promoting regional educational development and international cooperation while adhering to socialist educational principles.',
         'mission-text': 'To cultivate international talents with global vision and cross-cultural communication abilities, promote educational development in Central Asia, and build bridges for East-West cultural exchange.',
@@ -589,20 +579,7 @@ const translations = {
         'facility-sports-title': 'Sports Center',
         'facility-sports-desc': 'Complete sports facilities including gymnasium, swimming pool, and fitness center',
 
-        // International cooperation in English
-        'cooperation-intro': 'Maple Mountain College actively carries out international cooperation and exchanges, establishing cooperative relationships with renowned universities in multiple countries, providing students with rich international exchange opportunities.',
-        'partners-europe': 'European Partner Universities',
-        'partner-eu-1': 'Technical University of Munich, Germany',
-        'partner-eu-2': 'HEC Paris, France',
-        'partner-eu-3': 'University College London, UK',
-        'partners-asia': 'Asian Partner Universities',
-        'partner-asia-1': 'National University of Singapore',
-        'partner-asia-2': 'Seoul National University, South Korea',
-        'partner-asia-3': 'Waseda University, Japan',
-        'partners-america': 'American Partner Universities',
-        'partner-america-1': 'UC Berkeley, USA',
-        'partner-america-2': 'University of Toronto, Canada',
-        'partner-america-3': 'University of São Paulo, Brazil',
+
 
         // Leadership in English
         'leadership-title': 'Management Team',
@@ -624,6 +601,9 @@ const translations = {
         'leader-office-director-name': 'Ni Die',
         'leader-office-director-title': 'Director of College Office',
         'leader-office-director-desc': 'Master of Administrative Management and efficiency management expert with 9 years of higher education administrative management experience. Proficient in modern office management and information system construction, establishing comprehensive administrative management systems and workflow processes. Demonstrates excellence in coordinating departmental work, improving management efficiency, and optimizing service quality, ensuring smooth operation and efficient functioning of all college activities.',
+        'leader-academic-affairs-name': 'Chenchen',
+        'leader-academic-affairs-title': 'Dean of Academic Affairs',
+        'leader-academic-affairs-desc': 'Doctor of Education and senior academic affairs management expert with 18 years of higher education teaching management experience. Specializes in teaching quality monitoring and curriculum system optimization, leading the establishment of comprehensive teaching quality assessment systems and credit management systems. Has deep professional knowledge and rich practical experience in teaching reform and innovation, faculty training, and academic standards development, making outstanding contributions to the continuous improvement of the college\'s teaching standards and the establishment of international educational standards.',
 
         // Admissions page additional content in English
         'admission-requirements-title': 'Admission Requirements',
@@ -691,7 +671,7 @@ const translations = {
         
         // College names
         'college-name': 'Кыргызстан Клен Тоо Колледжи',
-        'college-name-en': 'Kyrgyzstan Maple Mountain College',
+        'college-name-en': 'Maple Mountain College',
         
         // Hero section
         'hero-title': 'Кыргызстан Клен Тоо Колледжине кош келиңиз',
@@ -854,20 +834,7 @@ const translations = {
         'facility-sports-title': 'Спорт борбору',
         'facility-sports-desc': 'Спорт залы, бассейн жана фитнес борборун камтыган толук спорт жабдуулары',
 
-        // International cooperation in Kyrgyz
-        'cooperation-intro': 'Клен Тоо колледжи эл аралык кызматташуу жана алмашууну активдүү жүргүзүп, бир нече өлкөнүн белгилүү университеттери менен кызматташуу мамилелерин түзүп, студенттерге бай эл аралык алмашуу мүмкүнчүлүктөрүн камсыз кылат.',
-        'partners-europe': 'Европалык өнөктөш университеттер',
-        'partner-eu-1': 'Германиянын Мюнхен техникалык университети',
-        'partner-eu-2': 'Франциянын HEC Париж',
-        'partner-eu-3': 'Улуу Британиянын Лондон университет колледжи',
-        'partners-asia': 'Азиялык өнөктөш университеттер',
-        'partner-asia-1': 'Сингапурдун улуттук университети',
-        'partner-asia-2': 'Түштүк Кореянын Сеул улуттук университети',
-        'partner-asia-3': 'Жапониянын Васеда университети',
-        'partners-america': 'Америкалык өнөктөш университеттер',
-        'partner-america-1': 'АКШнын Калифорния университети Беркли',
-        'partner-america-2': 'Канаданын Торонто университети',
-        'partner-america-3': 'Бразилиянын Сан-Паулу университети',
+
 
         // Leadership in Kyrgyz
         'leadership-title': 'Башкаруу командасы',
@@ -889,6 +856,9 @@ const translations = {
         'leader-office-director-name': 'Ни Дие',
         'leader-office-director-title': 'Колледж кеңсесинин директору',
         'leader-office-director-desc': 'Административдик башкаруу магистри жана эффективдүү башкаруу эксперти, 9 жылдык жогорку билим берүү административдик башкаруу тажрыйбасы бар. Заманбап кеңсе башкаруусун жана маалымат системаларын куруу боюнча адис, толук административдик башкаруу системаларын жана иш процесстерин түзгөн. Бөлүмдөрдүн ишин координациялоо, башкаруу эффективдүүлүгүн жогорулатуу жана кызмат сапатын оптималдаштыруу боюнча мыктылыкты көрсөтүп, колледждин бардык иш-чараларынын жылмакай жүрүшүн жана эффективдүү иштөөсүн камсыз кылат.',
+        'leader-academic-affairs-name': 'Чен Чен',
+        'leader-academic-affairs-title': 'Окуу иштеринин декану',
+        'leader-academic-affairs-desc': 'Билим берүү илимдеринин доктору жана улук окуу иштери башкаруу эксперти, 18 жылдык жогорку билим берүү окутуу башкаруу тажрыйбасы бар. Окутуу сапатын көзөмөлдөө жана куррикулум системасын оптималдаштыруу боюнча адис, толук окутуу сапатын баалоо системасын жана кредиттик башкаруу системасын түзүүгө жетекчилик кылган. Окутуу реформасы жана инновациясы, мугалимдерди даярдоо жана академиялык стандарттарды иштеп чыгуу боюнча терең кесиптик билимдери жана бай практикалык тажрыйбасы бар, колледждин окутуу деңгээлинин үзгүлтүксүз жогорулашына жана эл аралык билим берүү стандарттарын түзүүгө мыкты салым кошкон.',
 
         // Admissions page additional content in Kyrgyz
         'admission-requirements-title': 'Кабыл алуу талаптары',

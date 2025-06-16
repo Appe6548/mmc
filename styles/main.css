@@ -1241,66 +1241,26 @@ body {
     line-height: 1.6;
 }
 
-/* Cooperation Content */
-.cooperation-content {
-    margin-top: 40px;
-}
 
-.cooperation-intro {
-    background: #f8f9fa;
-    padding: 30px;
-    border-radius: 15px;
-    margin-bottom: 40px;
-    color: #666;
-    line-height: 1.8;
-    font-size: 1.1rem;
-}
-
-.cooperation-partners {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-}
-
-.partner-category {
-    background: white;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-}
-
-.partner-category h4 {
-    font-size: 1.2rem;
-    color: #2c5530;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #ff6b35;
-}
-
-.partner-category ul {
-    list-style: none;
-}
-
-.partner-category li {
-    padding: 8px 0;
-    color: #666;
-    position: relative;
-    padding-left: 20px;
-}
-
-.partner-category li::before {
-    content: '🏛️';
-    position: absolute;
-    left: 0;
-}
 
 /* Leadership Grid - Modern Glassmorphism Design */
 .leadership-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(8, 1fr);
     gap: 30px;
     margin-top: 40px;
 }
+
+/* First row: 4 items, each spanning 2 columns */
+.leadership-grid .leader-card:nth-child(1) { grid-column: 1 / span 2; }
+.leadership-grid .leader-card:nth-child(2) { grid-column: 3 / span 2; }
+.leadership-grid .leader-card:nth-child(3) { grid-column: 5 / span 2; }
+.leadership-grid .leader-card:nth-child(4) { grid-column: 7 / span 2; }
+
+/* Second row: 3 items centered, each spanning 2 columns with 1 column gap on each side */
+.leadership-grid .leader-card:nth-child(5) { grid-column: 2 / span 2; }
+.leadership-grid .leader-card:nth-child(6) { grid-column: 4 / span 2; }
+.leadership-grid .leader-card:nth-child(7) { grid-column: 6 / span 2; }
 
 .leader-card {
     position: relative;
@@ -1458,8 +1418,38 @@ body {
     }
 
     .leadership-grid {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+    }
+
+    /* Reset grid positioning for mobile */
+    .leadership-grid .leader-card:nth-child(1),
+    .leadership-grid .leader-card:nth-child(2),
+    .leadership-grid .leader-card:nth-child(3),
+    .leadership-grid .leader-card:nth-child(4),
+    .leadership-grid .leader-card:nth-child(5),
+    .leadership-grid .leader-card:nth-child(6),
+    .leadership-grid .leader-card:nth-child(7) {
+        grid-column: auto;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+    .leadership-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    /* Reset grid positioning for extra small screens */
+    .leadership-grid .leader-card:nth-child(1),
+    .leadership-grid .leader-card:nth-child(2),
+    .leadership-grid .leader-card:nth-child(3),
+    .leadership-grid .leader-card:nth-child(4),
+    .leadership-grid .leader-card:nth-child(5),
+    .leadership-grid .leader-card:nth-child(6),
+    .leadership-grid .leader-card:nth-child(7) {
+        grid-column: auto;
     }
 
     .leader-photo {
@@ -1474,9 +1464,7 @@ body {
         font-size: 0.9rem;
     }
 
-    .cooperation-partners {
-        grid-template-columns: 1fr;
-    }
+
 
     .faculty-highlights {
         grid-template-columns: repeat(2, 1fr);
