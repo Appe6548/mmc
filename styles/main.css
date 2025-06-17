@@ -171,6 +171,11 @@ body {
     display: none;
     flex-direction: column;
     cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .bar {
@@ -178,7 +183,10 @@ body {
     height: 3px;
     background: #333;
     margin: 3px 0;
-    transition: 0.3s;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transform-origin: center;
+    -webkit-transform-origin: center;
 }
 
 /* Hero Section */
@@ -555,18 +563,27 @@ body {
         width: 100%;
         height: calc(100vh - 80px);
         background: rgba(255, 255, 255, 0.98);
+        /* Fallback for browsers that don't support backdrop-filter */
+        background: #ffffff;
+        -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         padding-top: 50px;
-        transition: left 0.3s ease;
+        transition: left 0.3s ease, transform 0.3s ease;
+        -webkit-transition: left 0.3s ease, transform 0.3s ease;
         box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-        z-index: 999;
+        z-index: 9999;
+        /* Ensure it's above everything */
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
     }
 
     .nav-menu.active {
         left: 0;
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
     }
 
     .nav-menu .nav-item {
@@ -582,21 +599,35 @@ body {
         border-radius: 10px;
         margin: 0 20px;
         transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -webkit-tap-highlight-color: transparent;
+        /* Remove tap highlight on iOS */
+        touch-action: manipulation;
+        /* Improve touch responsiveness */
     }
 
     .nav-menu .nav-link:hover,
-    .nav-menu .nav-link.active {
+    .nav-menu .nav-link.active,
+    .nav-menu .nav-link:focus {
         background: rgba(44, 85, 48, 0.1);
         color: #2c5530;
+        outline: none;
     }
 
     .hamburger {
         display: flex;
-        z-index: 1001;
+        z-index: 10001;
+        position: relative;
+        padding: 10px;
+        /* Add padding for better touch target */
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+        /* Remove tap highlight on iOS */
     }
 
     .hamburger.active .bar:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
+        -webkit-transform: rotate(45deg) translate(5px, 5px);
     }
 
     .hamburger.active .bar:nth-child(2) {
@@ -605,6 +636,7 @@ body {
 
     .hamburger.active .bar:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px);
+        -webkit-transform: rotate(-45deg) translate(7px, -6px);
     }
 
     .language-selector {
@@ -619,6 +651,26 @@ body {
         border-radius: 10px;
         margin-top: 10px;
         width: 200px;
+    }
+
+    /* Mobile menu overlay for better compatibility */
+    .mobile-menu-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 9998;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+    }
+
+    .mobile-menu-overlay.active {
+        opacity: 1;
+        visibility: visible;
     }
 
     .hero-title {
