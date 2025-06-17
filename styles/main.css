@@ -1088,47 +1088,7 @@ body {
     left: 0;
 }
 
-/* Tuition Table */
-.tuition-table {
-    background: white;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-    margin-top: 40px;
-}
 
-.tuition-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    padding: 20px;
-    border-bottom: 1px solid #eee;
-}
-
-.tuition-row.header {
-    background: #2c5530;
-    color: white;
-    font-weight: 600;
-}
-
-.tuition-row:last-child {
-    border-bottom: none;
-}
-
-.tuition-cell {
-    padding: 10px;
-    text-align: center;
-}
-
-.tuition-note {
-    margin-top: 20px;
-    padding: 20px;
-    background: #f8f9fa;
-    border-radius: 10px;
-    color: #666;
-    font-size: 0.9rem;
-    line-height: 1.6;
-}
 
 /* Application Form */
 .application-form {
@@ -1560,15 +1520,7 @@ body {
         grid-template-columns: 1fr;
     }
 
-    .tuition-row {
-        grid-template-columns: 1fr;
-        text-align: left;
-    }
 
-    .tuition-cell {
-        text-align: left;
-        padding: 5px 10px;
-    }
 
     /* Mobile Touch Support for Leadership Cards */
     .leader-card {
