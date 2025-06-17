@@ -333,7 +333,21 @@ const translations = {
         'nationality-tj': '塔吉克斯坦',
         'nationality-tm': '土库曼斯坦',
         'nationality-other': '其他',
-        'form-select-program': '请选择专业'
+        'form-select-program': '请选择专业',
+
+        // News Migration Page
+        'page-title-news-migration': '新闻迁移 - 枫山学院',
+        'news-migration-title': '新闻页面数据迁移中',
+        'news-migration-subtitle': '我们正在升级新闻系统，为您提供更好的阅读体验',
+        'news-migration-message': '亲爱的用户，我们正在对新闻页面进行系统升级和数据迁移，以便为您提供更快速、更稳定的新闻浏览体验。在此期间，新闻页面暂时无法访问。',
+        'news-migration-timeline': '预计完成时间：2-3个工作日',
+        'news-migration-apology': '对于给您带来的不便，我们深表歉意。感谢您的理解与支持！',
+        'back-to-home': '返回首页',
+        'news-migration-features-title': '升级后的新功能',
+        'news-migration-feature-1': '更快的加载速度',
+        'news-migration-feature-2': '优化的移动端体验',
+        'news-migration-feature-3': '智能新闻分类',
+        'news-migration-feature-4': '多媒体内容支持'
     },
     
     en: {
@@ -659,7 +673,21 @@ const translations = {
         'nationality-tj': 'Tajikistan',
         'nationality-tm': 'Turkmenistan',
         'nationality-other': 'Other',
-        'form-select-program': 'Select Program'
+        'form-select-program': 'Select Program',
+
+        // News Migration Page
+        'page-title-news-migration': 'News Migration - Maple Mountain College',
+        'news-migration-title': 'News Page Data Migration in Progress',
+        'news-migration-subtitle': 'We are upgrading our news system to provide you with a better reading experience',
+        'news-migration-message': 'Dear users, we are currently upgrading our news page system and migrating data to provide you with a faster and more stable news browsing experience. During this period, the news page is temporarily inaccessible.',
+        'news-migration-timeline': 'Expected completion time: 2-3 business days',
+        'news-migration-apology': 'We sincerely apologize for any inconvenience caused. Thank you for your understanding and support!',
+        'back-to-home': 'Back to Home',
+        'news-migration-features-title': 'New Features After Upgrade',
+        'news-migration-feature-1': 'Faster loading speed',
+        'news-migration-feature-2': 'Optimized mobile experience',
+        'news-migration-feature-3': 'Smart news categorization',
+        'news-migration-feature-4': 'Multimedia content support'
     },
     
     ky: {
@@ -914,6 +942,20 @@ const translations = {
         'nationality-tj': 'Тажикстан',
         'nationality-tm': 'Түркмөнстан',
         'nationality-other': 'Башка',
-        'form-select-program': 'Программаны тандаңыз'
+        'form-select-program': 'Программаны тандаңыз',
+
+        // News Migration Page
+        'page-title-news-migration': 'Жаңылыктарды көчүрүү - Клен Тоо Колледжи',
+        'news-migration-title': 'Жаңылыктар бетинин маалыматтары көчүрүлүп жатат',
+        'news-migration-subtitle': 'Биз сизге жакшыраак окуу тажрыйбасын берүү үчүн жаңылыктар системасын жаңылап жатабыз',
+        'news-migration-message': 'Урматтуу колдонуучулар, биз учурда жаңылыктар бетинин системасын жаңылап, маалыматтарды көчүрүп жатабыз. Бул сизге тезирээк жана туруктуураак жаңылыктарды көрүү мүмкүнчүлүгүн берет. Ушул мезгилде жаңылыктар бети убактылуу жеткиликсиз.',
+        'news-migration-timeline': 'Аяктоо убактысы: 2-3 иш күнү',
+        'news-migration-apology': 'Келтирилген ыңгайсыздык үчүн чын жүрөктөн кечирим сурайбыз. Түшүнүүңүз жана колдооңуз үчүн рахмат!',
+        'back-to-home': 'Башкы бетке кайтуу',
+        'news-migration-features-title': 'Жаңылангандан кийинки жаңы функциялар',
+        'news-migration-feature-1': 'Тезирээк жүктөлүү ылдамдыгы',
+        'news-migration-feature-2': 'Мобилдик түзмөктөр үчүн жакшыртылган тажрыйба',
+        'news-migration-feature-3': 'Акылдуу жаңылыктарды классификациялоо',
+        'news-migration-feature-4': 'Мультимедиа мазмунду колдоо'
     }
 };
