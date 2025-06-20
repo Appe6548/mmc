@@ -334,7 +334,7 @@ document.addEventListener('click', function(event) {
 });
 
 // Global variable for current language
-let currentLanguage = localStorage.getItem('selectedLanguage') || 'zh';
+let currentLanguage = localStorage.getItem('selectedLanguage') || 'ky';
 
 // Change language function
 function changeLanguage(lang) {

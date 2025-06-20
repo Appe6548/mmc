@@ -10,6 +10,7 @@ const translations = {
         // College names
         'college-name': '枫山学院',
         'college-name-en': 'Maple Mountain College',
+        'college-name-alt': '毛毛虫大学',
         
         // Hero section
         'hero-title': '欢迎来到枫山学院',
@@ -52,10 +53,10 @@ const translations = {
         'footer-rights': '版权所有',
         
         // Page titles
-        'page-title-home': '枫山学院 - Maple Mountain College',
-        'page-title-news': '大学新闻 - 枫山学院',
-        'page-title-admissions': '招生信息 - 枫山学院',
-        'page-title-about': '关于我们 - 枫山学院',
+        'page-title-home': 'Кыргызстан Клен Тоо Колледжине - 枫山学院 - Maple Mountain College - 毛毛虫大学',
+        'page-title-news': '大学新闻 - 枫山学院 - Maple Mountain College - 毛毛虫大学',
+        'page-title-admissions': '招生信息 - 枫山学院 - Maple Mountain College - 毛毛虫大学',
+        'page-title-about': '关于我们 - 枫山学院 - Maple Mountain College - 毛毛虫大学',
         
         // News page
         'news-page-title': '大学新闻',
@@ -220,8 +221,8 @@ const translations = {
         'news-spike-detail-quote': '"教育是国之大计、党之大计。我们要始终坚持为党育人、为国育才的初心使命，培养德智体美劳全面发展的社会主义建设者和接班人。" —— 党委书记 Spike',
 
         // About page content
-        'college-intro-p1': '枫山学院成立于2010年，是一所致力于国际化教育的现代化高等学府。学院位于美丽的比什凯克市，坐落在天山山脉脚下，环境优美，学术氛围浓厚。',
-        'college-intro-p2': '作为中亚地区重要的教育机构，枫山学院秉承"开放、包容、创新、卓越"的办学理念，致力于培养具有国际视野、跨文化交流能力和创新精神的优秀人才。学院与多个国家的知名大学建立了合作关系，为学生提供广阔的国际交流平台。',
+        'college-intro-p1': '枫山学院（又称毛毛虫大学）成立于2010年，是一所致力于国际化教育的现代化高等学府。学院位于美丽的比什凯克市，坐落在天山山脉脚下，环境优美，学术氛围浓厚。',
+        'college-intro-p2': '作为中亚地区重要的教育机构，枫山学院（毛毛虫大学）秉承"开放、包容、创新、卓越"的办学理念，致力于培养具有国际视野、跨文化交流能力和创新精神的优秀人才。学院与多个国家的知名大学建立了合作关系，为学生提供广阔的国际交流平台。',
         'college-intro-p3': '在党委书记Spike的领导下，学院坚持党的全面领导，深入贯彻党的教育方针，加强党建工作和思想政治教育。学院正朝着建设世界一流国际化大学的目标稳步前进，在坚持社会主义办学方向的同时，为促进地区教育发展和国际合作做出积极贡献。',
         'mission-text': '培养具有全球视野和跨文化交流能力的国际化人才，促进中亚地区教育发展，搭建东西方文化交流的桥梁。',
         'vision-text': '成为中亚地区领先的国际化高等教育机构，为构建人类命运共同体培养优秀人才。',
@@ -395,10 +396,10 @@ const translations = {
         'footer-rights': 'All Rights Reserved',
         
         // Page titles
-        'page-title-home': 'Maple Mountain College - International Education',
-        'page-title-news': 'University News - Maple Mountain College',
-        'page-title-admissions': 'Admissions - Maple Mountain College',
-        'page-title-about': 'About Us - Maple Mountain College',
+        'page-title-home': 'Кыргызстан Клен Тоо Колледжине - Maple Mountain College - 枫山学院 - 毛毛虫大学',
+        'page-title-news': 'University News - Maple Mountain College - 枫山学院 - 毛毛虫大学',
+        'page-title-admissions': 'Admissions - Maple Mountain College - 枫山学院 - 毛毛虫大学',
+        'page-title-about': 'About Us - Maple Mountain College - 枫山学院 - 毛毛虫大学',
         
         // News page
         'news-page-title': 'University News',
@@ -553,7 +554,7 @@ const translations = {
         'news-author-student': 'Student Affairs Office',
 
         // About page content in English
-        'college-intro-p1': 'Maple Mountain College was established in 2010 as a modern higher education institution dedicated to international education. Located in the beautiful city of Bishkek, nestled at the foot of the Tian Shan Mountains, the college enjoys a beautiful environment and rich academic atmosphere.',
+        'college-intro-p1': 'Maple Mountain College (also known as 毛毛虫大学) was established in 2010 as a modern higher education institution dedicated to international education. Located in the beautiful city of Bishkek, nestled at the foot of the Tian Shan Mountains, the college enjoys a beautiful environment and rich academic atmosphere.',
         'college-intro-p2': 'As an important educational institution in Central Asia, Maple Mountain College adheres to the educational philosophy of "openness, inclusiveness, innovation, and excellence," committed to cultivating outstanding talents with global vision, cross-cultural communication skills, and innovative spirit. The college has established cooperative relationships with renowned universities in multiple countries, providing students with broad international exchange platforms.',
         'college-intro-p3': 'Under the leadership of Party Secretary Spike, the college upholds comprehensive Party leadership, thoroughly implements the Party\'s educational policies, and strengthens Party building and ideological-political education. The college is steadily advancing toward the goal of building a world-class international university, making positive contributions to promoting regional educational development and international cooperation while adhering to socialist educational principles.',
         'mission-text': 'To cultivate international talents with global vision and cross-cultural communication abilities, promote educational development in Central Asia, and build bridges for East-West cultural exchange.',
@@ -728,10 +729,40 @@ const translations = {
         'footer-rights': 'Бардык укуктар корголгон',
         
         // Page titles
-        'page-title-home': 'Кыргызстан Клен Тоо Колледжи - Эл аралык билим берүү',
-        'page-title-news': 'Университет жаңылыктары - Кыргызстан Клен Тоо Колледжи',
-        'page-title-admissions': 'Кабыл алуу - Кыргызстан Клен Тоо Колледжи',
-        'page-title-about': 'Биз жөнүндө - Кыргызстан Клен Тоо Колледжи',
+        'page-title-home': 'Кыргызстан Клен Тоо Колледжине - 枫山学院 - Maple Mountain College - 毛毛虫大学',
+        'page-title-news': 'Университет жаңылыктары - Кыргызстан Клен Тоо Колледжине - 毛毛虫大学',
+        'page-title-admissions': 'Кабыл алуу - Кыргызстан Клен Тоо Колледжине - 毛毛虫大学',
+        'page-title-about': 'Биз жөнүндө - Кыргызстан Клен Тоо Колледжине - 毛毛虫大学',
+
+        // News page
+        'news-page-title': 'Университет жаңылыктары',
+        'news-page-subtitle': 'Кыргызстан Клен Тоо Колледжинин акыркы окуялары жана маанилүү иш-чаралары менен таанышыңыз',
+
+
+        // Admissions page
+        'admissions-page-title': 'Кабыл алуу',
+        'admissions-page-subtitle': 'Кыргызстан Клен Тоо Колледжине кошулуп, эл аралык билим берүү сапарыңызды баштаңыз',
+        'application-process-title': 'Арыз берүү процесси',
+        'step-1-title': 'Онлайн арыз',
+        'step-1-desc': 'Онлайн арыз формасын толтуруп, негизги маалыматты жөнөтүңүз',
+        'step-2-title': 'Документтерди жөнөтүү',
+        'step-2-desc': 'Керектүү арыз материалдарын жана тастыктоочу документтерди жүктөңүз',
+        'step-3-title': 'Карап чыгуу жана баалоо',
+        'step-3-desc': 'Кабыл алуу комиссиясы арыз материалдарын карайт',
+        'step-4-title': 'Кабыл алуу эскертүүсү',
+        'step-4-desc': 'Кабыл алуу катын алып, окууну ырастаңыз',
+
+        // About page
+        'about-page-title': 'Биз жөнүндө',
+        'about-page-subtitle': 'Кыргызстан Клен Тоо Колледжинин тарыхы, миссиясы жана көрүнүшү менен таанышыңыз',
+        'college-intro-title': 'Колледж тууралуу',
+        'mission-title': 'Биздин миссия',
+        'vision-title': 'Биздин көрүнүш',
+        'statistics-title': 'Колледж статистикасы',
+        'faculty-title': 'Мугалимдердин күчү',
+        'facilities-title': 'Кампус шарттары',
+
+        'leadership-title': 'Колледж жетекчилиги',
         
         // Form
         'form-first-name': 'Аты',
@@ -815,7 +846,7 @@ const translations = {
         'news-author-student': 'Студенттик иштер бөлүмү',
 
         // About page content in Kyrgyz
-        'college-intro-p1': 'Кыргызстан Клен Тоо Колледжи 2010-жылы эл аралык билим берүүгө багытталган заманбап жогорку окуу жайы катары түзүлгөн. Тянь-Шань тоолорунун этегинде жайгашкан кооз Бишкек шаарында жайгашкан колледж кооз чөйрө жана бай академиялык атмосферага ээ.',
+        'college-intro-p1': 'Кыргызстан Клен Тоо Колледжи (毛毛虫大学 деп да аталат) 2010-жылы эл аралык билим берүүгө багытталган заманбап жогорку окуу жайы катары түзүлгөн. Тянь-Шань тоолорунун этегинде жайгашкан кооз Бишкек шаарында жайгашкан колледж кооз чөйрө жана бай академиялык атмосферага ээ.',
         'college-intro-p2': 'Борбор Азиянын маанилүү билим берүү мекемеси катары Клен Тоо колледжи "ачыктык, камтуулук, инновация жана мыкты болуу" билим берүү философиясын кармана тууруп, глобалдык көз карашы, маданияттар аралык баарлашуу жөндөмү жана инновациялык рух менен мыкты таланттарды тарбиялоого умтулат. Колледж бир нече өлкөнүн белгилүү университеттери менен кызматташуу мамилелерин түзүп, студенттерге кеңири эл аралык алмашуу платформаларын камсыз кылат.',
         'college-intro-p3': 'Партия катчысы Spike жетекчилигинде колледж партиянын толук жетекчилигин кармана тууруп, партиянын билим берүү саясатын терең ишке ашырып, партия куруу жана идеологиялык-саясий билим берүү ишин бекемдейт. Колледж социалисттик билим берүү принциптерин кармана тууруп, дүйнөлүк деңгээлдеги эл аралык университет курууну максат кылып, аймактык билим берүүнүн өнүгүүсүн жана эл аралык кызматташууну илгерилетүүгө оң салым кошуп жатат.',
         'mission-text': 'Глобалдык көз карашы жана маданияттар аралык баарлашуу жөндөмү бар эл аралык таланттарды тарбиялоо, Борбор Азиядагы билим берүүнүн өнүгүүсүн илгерилетүү жана Чыгыш-Батыш маданий алмашуусунун көпүрөлөрүн куруу.',
